@@ -38,3 +38,16 @@ scientificName Xenopus laevis
 description August 2015 (Xlav91)
 scientificName Xlav91/Xlav91.html
 description Xlav91
+
+
+genome Xentr10_0
+trackDb Xentr10_0/trackDb.txt
+twoBitPath https://mbdata.science.ru.nl/tschaefers/resources/XENTR_10.0_genome.2bit  
+organism Xenopus laevis
+defaultPos Chr1:7257898-7369346
+orderKey 1
+scientificName Xenopus tropicalis
+description October 2019 (Xentr10_0)
+scientificName Xentr10_0/Xentr10_0.html
+description Xentr10_0
+
