@@ -1,6 +1,6 @@
 genome xt7_1
 trackDb xt7_1/trackDb.txt
-twoBitPath https://trackhub.science.ru.nl/hubs/xenopus/hxt7_1/xt7_1.2bit
+twoBitPath https://mbdata.science.ru.nl/tschaefers/resources/xt7_1.2bit
 organism Xenopus tropicalis
 defaultPos scaffold_1:54930001-55110000
 orderKey 1
@@ -10,7 +10,7 @@ description xt7_1
 
 genome xt8_0
 trackDb xt8_0/trackDb.txt
-twoBitPath https://trackhub.science.ru.nl/hubs/xenopus/hxt8_0/xt8_0.2bit
+twoBitPath https://mbdata.science.ru.nl/tschaefers/resources/xt8_0.2bit
 organism Xenopus tropicalis
 defaultPos Chr01:34987730-35167729
 orderKey 1
@@ -20,7 +20,7 @@ description xt8_0
 
 genome xt9_0
 trackDb xt9_0/trackDb.txt
-twoBitPath https://trackhub.science.ru.nl/hubs/xenopus/hxt9_0/xt9_0.2bit
+twoBitPath https://mbdata.science.ru.nl/tschaefers/resources/xt9_0.2bit
 organism Xenopus tropicalis
 defaultPos Chr01:7257898-7369346
 orderKey 1
@@ -30,7 +30,7 @@ description xt9_0
 
 genome Xlav91
 trackDb Xlav91/trackDb.txt
-twoBitPath https://trackhub.science.ru.nl/hubs/xenopus/hXlav91/Xlav91.2bit
+twoBitPath https://mbdata.science.ru.nl/tschaefers/resources/Xlav91.2bit
 organism Xenopus laevis
 defaultPos chr1L:7257898-7369346
 orderKey 1
