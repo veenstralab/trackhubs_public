@@ -1,0 +1,140 @@
+track ChIP-seq
+shortLabel ChIP-seq
+longLabel ChIP-seq
+priority 1
+visibility full
+compositeTrack on
+dragAndDrop on
+type bigWig
+  
+  track H3K4me3_stage10.5_1
+  bigDataUrl http://trackhub.science.ru.nl/bw/project/xlaevis/Xlav91/H3K4me3_10_5_xl_replicate1.bw
+  longLabel H3K4me3_10_5_xl_replicate1
+  maxHeightPixels 128:30:16
+  parent ChIP-seq
+  shortLabel H3K4me3_stage10.5_1
+  color 73,189,103
+  type bigWig
+  priority 1
+  viewLimits 0:25
+  visibility full
+
+  track H3K4me3_stage10.5_2
+  bigDataUrl http://trackhub.science.ru.nl/bw/project/xlaevis/Xlav91/H3K4me3_10_5_xl_replicate2.bw
+  longLabel H3K4me3_10_5_xl_replicate2
+  maxHeightPixels 128:30:16
+  parent ChIP-seq
+  shortLabel H3K4me3_stage10.5_2
+  color 73,189,103
+  type bigWig
+  priority 2
+  viewLimits 0:25
+  visibility full
+  
+  track Pol2Ab_Diagenode_10_5_xl_1
+  bigDataUrl http://trackhub.science.ru.nl/bw/project/xlaevis/Xlav91/Pol2Ab_Diagenode_10_5_xl_replicate1.bw
+  longLabel Pol2Ab_Diagenode_10_5_xl_replicate1
+  maxHeightPixels 128:30:16
+  parent ChIP-seq
+  shortLabel Pol2Ab_Diagenode_10_5_xl_1
+  color 167,0,75
+  type bigWig
+  priority 3
+  viewLimits 0:15
+  visibility full
+
+  track Pol2Ab_Diagenode_10_5_xl_2
+  bigDataUrl http://trackhub.science.ru.nl/bw/project/xlaevis/Xlav91/Pol2Ab_Diagenode_10_5_xl_replicate2.bw
+  longLabel Pol2Ab_Diagenode_10_5_xl_replicate2
+  maxHeightPixels 128:30:16
+  parent ChIP-seq
+  shortLabel Pol2Ab_Diagenode_10_5_xl_2
+  color 167,0,75
+  type bigWig
+  priority 4
+  viewLimits 0:15
+  visibility full
+  
+  track H3K36me3_stage10.5_1
+  bigDataUrl http://trackhub.science.ru.nl/bw/project/xlaevis/Xlav91/H3K36me3_10_5_xl_replicate1.bw
+  longLabel H3K36me3_10_5_xl_replicate1
+  maxHeightPixels 128:30:16
+  parent ChIP-seq
+  shortLabel H3K36me3_stage10.5_1
+  color 59,247,189
+  type bigWig
+  priority 5
+  viewLimits 0:20
+  visibility full
+  
+  track H3K36me3_stage10.5_2
+  bigDataUrl http://trackhub.science.ru.nl/bw/project/xlaevis/Xlav91/H3K36me3_10_5_xl_replicate2.bw
+  longLabel H3K36me3_10_5_xl_replicate1
+  maxHeightPixels 128:30:16
+  parent ChIP-seq
+  shortLabel H3K36me3_stage10.5_1
+  color 59,247,189
+  type bigWig
+  priority 6
+  viewLimits 0:20
+  visibility full
+  
+  track p300_stage10.5_1
+  bigDataUrl http://trackhub.science.ru.nl/bw/project/xlaevis/Xlav91/p300_10_5_xl_replicate1.bw
+  longLabel p300_10_5_xl_replicate1
+  maxHeightPixels 128:30:16
+  parent ChIP-seq
+  shortLabel p300_stage10.5_1
+  color 235,188,57
+  type bigWig
+  priority 7
+  viewLimits 0:25
+  visibility full
+
+  track p300_stage10.5_2 
+  bigDataUrl http://trackhub.science.ru.nl/bw/project/xlaevis/Xlav91/p300_10_5_xl_replicate2.bw
+  longLabel p300_10_5_xl_replicate2
+  maxHeightPixels 128:30:16
+  parent ChIP-seq
+  shortLabel p300_stage10.5_2
+  color 235,188,57
+  type bigWig
+  priority 8
+  viewLimits 0:25
+  visibility full
+
+  track H3K4me1_stage10.5_1
+  bigDataUrl http://trackhub.science.ru.nl/bw/project/xlaevis/Xlav91/H3K4me1_10_5_xl_replicate1.bw
+  longLabel H3K4me1_10_5_xl_replicate1
+  maxHeightPixels 128:30:16
+  parent ChIP-seq
+  shortLabel H3K4me1_stage10.5_1
+  color 41,184,255
+  type bigWig
+  priority 9
+  viewLimits 0:10
+  visibility full
+
+  track H3K4me1_stage10.5_2
+  bigDataUrl http://trackhub.science.ru.nl/bw/project/xlaevis/Xlav91/H3K4me1_10_5_xl_replicate2.bw
+  longLabel H3K4me1_10_5_xl_replicate2
+  maxHeightPixels 128:30:16
+  parent ChIP-seq
+  shortLabel H3K4me1_stage10.5_2
+  color 41,184,255
+  type bigWig
+  priority 10
+  viewLimits 0:10
+  visibility full
+  
+  track Input_stage10.5_1
+  bigDataUrl http://trackhub.science.ru.nl/bw/project/xlaevis/Xlav91/Input_10_5_xl_replicate1.bw
+  longLabel Input_10_5_xl_replicate1
+  maxHeightPixels 128:30:16
+  parent ChIP-seq
+  shortLabel Input_stage10.5_1
+  color 155,155,155
+  type bigWig
+  priority 11
+  viewLimits 0:25
+  visibility full

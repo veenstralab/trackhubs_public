@@ -1,0 +1,9 @@
+<FilesMatch "hub_internal.txt">
+Require host science.ru.nl
+</FilesMatch>
+
+<FilesMatch "hub.txt">
+Require all deny
+#Deny from mb05.science.ru.nl
+</FilesMatch>
+
