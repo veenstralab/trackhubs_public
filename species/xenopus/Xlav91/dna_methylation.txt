@@ -1,0 +1,19 @@
+track DNA_Methylation
+shortLabel DNA Methylation
+longLabel DNA Methylation
+priority 1
+visibility full
+compositeTrack on
+dragAndDrop on
+type bigWig
+
+  track DNAmethylation_stage10.5
+  bigDataUrl http://trackhub.science.ru.nl/bw/project/xlaevis/DNAmethylation/xl9_1/xl_st10_v9.allC.bw
+  longLabel DNAmethylation_stage10.5
+  maxHeightPixels 128:30:16
+  parent DNA_Methylation
+  shortLabel DNAmethylation_stage10.5
+  color 153,153,153
+  type bigWig
+  viewLimits 0:1
+  visibility full
