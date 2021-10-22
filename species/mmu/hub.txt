@@ -1,0 +1,5 @@
+hub Mouse
+shortLabel G.J.Veenstra mm10 trackhub
+longLabel G.J.Veenstra mm10 UCSC trackhub - Radboud University, Molecular Developmental Biology Dept.
+genomesFile genomes.txt
+email g.veenstra@science.ru.nl 

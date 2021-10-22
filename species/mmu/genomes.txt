@@ -1,0 +1,9 @@
+genome mm10
+trackDb mm10/trackDb.txt
+twoBitPath http://trackhub.science.ru.nl/hubs/mouse_veenstra/mm10/mm10.2bit
+organism Mus musculus
+defaultPos chr6:52,083,518-52,378,617
+orderKey 1
+scientificName Mus musculus
+# htmlPath mm10/----.html
+description mm10
