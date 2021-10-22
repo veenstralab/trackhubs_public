@@ -1,0 +1,5 @@
+hub Petromyzon marinus
+shortLabel Pmar hub
+longLabel Molecular Developmental Biology - Petromyzon marinus hub - Public trackhub
+genomesFile genomes.txt
+email tilman.schaefers@science.ru.nl

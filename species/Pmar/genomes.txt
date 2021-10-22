@@ -1,0 +1,10 @@
+genome kPetmar1
+trackDb kPetmar1/trackDb.txt
+twoBitPath https://mbdata.science.ru.nl/tschaefers/resources/GCF_010993605.1_kPetMar1.pri_genomic.2bit
+organism petromyzon marinus
+defaultPos NC_046069.1:6438-15940
+orderKey 1
+scientificName Petromyzon marinus
+htmlPath kPetmar1/kPetmar1.html
+description kPetmar1
+
