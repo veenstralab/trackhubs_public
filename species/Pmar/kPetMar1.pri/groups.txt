@@ -1,0 +1,9 @@
+name annotation
+label Gene and Genome Annotation
+priority 1
+defaultIsClosed 1
+
+name trackhub
+label seq2science RNA-seq hub
+priority 2
+defaultIsClosed 0
