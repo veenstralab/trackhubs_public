@@ -1,5 +1,5 @@
-# trackhubs_internal 
-## Collection of unreleased trackhub records
+# trackhubs_public
+## Collection of released trackhub records
 ### Track hub instructions
 
 1. Clone/Download this github repository to a web-accesible folder
