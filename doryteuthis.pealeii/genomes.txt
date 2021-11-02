@@ -1,6 +1,6 @@
 genome Dpe_v2.1
 trackDb Dpe_v2.1/trackDb.txt
-twoBitPath https://mbdata.science.ru.nl/tschaefers/resources/Dpe_v2.1.2bit
+twoBitPath https://trackhub.science.ru.nl/hubs/veenstralab/resources/genomes/doryteuthis.pealeii/Dpe_v2.1/Dpe_v2.1.2bit
 organism Longfin inshore squid
 defaultPos Dpe01:10
 orderKey 1
