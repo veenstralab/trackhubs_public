@@ -1,0 +1,397 @@
+track Perino_Mierlo_2020
+type bigWig
+compositeTrack on
+shortLabel Perino_Mierlo_2020 tracks
+longLabel Perino_Mierlo_2020 tracks
+visibility full
+dragAndDrop subTracks
+priority 2.0
+subGroup1 cellLine Cell_Line \ 
+        mES=WT_mES \ 
+        E14=WT_E14 \ 
+        Mtf2GT=Mtf2_Gene_Trap \ 
+        E4=E4_Jarid2_KO \ 
+        EedKO=Eed_KO \ 
+        R1AB=Ring1ab_KO
+subGroup2 Ab Antibody \ 
+        BioCap=BioCap \ 
+        Mtf2=Mtf2 \ 
+        Ezh2=Ezh2 \ 
+        H3K4me3=H3K4me3 \ 
+        H3K27me3=H3K27me3 \ 
+        Jarid2=Jarid2 \ 
+        Ring1b=Ring1b \ 
+        Input=Input
+subGroup3 inhibitors Inhibitors \ 
+        NoInhibitor=No_Inhibitor \ 
+        EED226=Eed226_Inhibitor \ 
+        EED226_MG132=Eed226_MG132
+dimensions dimX=cellLine dimY=Ab dimA=inhibitors
+autoScale off 
+sortOrder Ab=+ cellLine=+ inhibitors=+ 
+dragAndDrop on 
+#filter composite dimA
+
+	track mES_BioCap_NoInhibitor
+parent Perino_Mierlo_2020 on
+subGroups cellLine=mES Ab=BioCap inhibitors=NoInhibitor
+bigDataUrl http://trackhub.science.ru.nl/hubs/mouse_veenstra/bw/Perino_Mierlo_2020/BioCap.mapUnique.bw
+longLabel mES_BioCap_NoInhibitor
+shortLabel mES_BioCap_NoInhibitor_Perino_Mierlo_2020
+maxHeightPixels 128:30:16
+color 0,43,255
+type bigWig
+viewLimits 0:300
+
+	track E14_Ezh2_EED226
+parent Perino_Mierlo_2020 on
+subGroups cellLine=E14 Ab=Ezh2 inhibitors=EED226
+bigDataUrl http://trackhub.science.ru.nl/hubs/mouse_veenstra/bw/Perino_Mierlo_2020/E14_FCS_226_Ezh2.mapUnique.bw
+longLabel E14_Ezh2_EED226
+shortLabel E14_Ezh2_EED226_Perino_Mierlo_2020
+maxHeightPixels 128:30:16
+color 254,153,41
+type bigWig
+viewLimits 0:800
+
+	track E14_Jarid2_EED226
+parent Perino_Mierlo_2020 on
+subGroups cellLine=E14 Ab=Jarid2 inhibitors=EED226
+bigDataUrl http://trackhub.science.ru.nl/hubs/mouse_veenstra/bw/Perino_Mierlo_2020/E14_FCS_226_Jarid2.mapUnique.bw
+longLabel E14_Jarid2_EED226
+shortLabel E14_Jarid2_EED226_Perino_Mierlo_2020
+maxHeightPixels 128:30:16
+color 128,125,186
+type bigWig
+viewLimits 0:1000
+
+	track E14_Mtf2_EED226
+parent Perino_Mierlo_2020 on
+subGroups cellLine=E14 Ab=Mtf2 inhibitors=EED226
+bigDataUrl http://trackhub.science.ru.nl/hubs/mouse_veenstra/bw/Perino_Mierlo_2020/E14_FCS_226_Mtf2.mapUnique.bw
+longLabel E14_Mtf2_EED226
+shortLabel E14_Mtf2_EED226_Perino_Mierlo_2020
+maxHeightPixels 128:30:16
+color 174,1,126
+type bigWig
+viewLimits 0:1000
+
+	track E14_Ring1b_EED226
+parent Perino_Mierlo_2020 on
+subGroups cellLine=E14 Ab=Ring1b inhibitors=EED226
+bigDataUrl http://trackhub.science.ru.nl/hubs/mouse_veenstra/bw/Perino_Mierlo_2020/E14_FCS_226_Ring1b.mapUnique.bw
+longLabel E14_Ring1b_EED226
+shortLabel E14_Ring1b_EED226_Perino_Mierlo_2020
+maxHeightPixels 128:30:16
+color 8,81,156
+type bigWig
+viewLimits 0:800
+
+	track E14_Ezh2_NoInhibitor
+parent Perino_Mierlo_2020 on
+subGroups cellLine=E14 Ab=Ezh2 inhibitors=NoInhibitor
+bigDataUrl http://trackhub.science.ru.nl/hubs/mouse_veenstra/bw/Perino_Mierlo_2020/E14_FCS_Ezh2.mapUnique.bw
+longLabel E14_Ezh2_NoInhibitor
+shortLabel E14_Ezh2_NoInhibitor_Perino_Mierlo_2020
+maxHeightPixels 128:30:16
+color 254,153,41
+type bigWig
+viewLimits 0:800
+
+	track E14_H3K27me3_NoInhibitor
+parent Perino_Mierlo_2020 on
+subGroups cellLine=E14 Ab=H3K27me3 inhibitors=NoInhibitor
+bigDataUrl http://trackhub.science.ru.nl/hubs/mouse_veenstra/bw/Perino_Mierlo_2020/E14_FCS_H3K27me3.mapUnique.bw
+longLabel E14_H3K27me3_NoInhibitor
+shortLabel E14_H3K27me3_NoInhibitor_Perino_Mierlo_2020
+maxHeightPixels 128:30:16
+color 189,0,38
+type bigWig
+viewLimits 0:600
+
+	track E14_H3K4me3_NoInhibitor
+parent Perino_Mierlo_2020 on
+subGroups cellLine=E14 Ab=H3K4me3 inhibitors=NoInhibitor
+bigDataUrl http://trackhub.science.ru.nl/hubs/mouse_veenstra/bw/Perino_Mierlo_2020/E14_FCS_H3K4me3.mapUnique.bw
+longLabel E14_H3K4me3_NoInhibitor
+shortLabel E14_H3K4me3_NoInhibitor_Perino_Mierlo_2020
+maxHeightPixels 128:30:16
+color 18,129,17
+type bigWig
+viewLimits 0:500
+
+	track E14_Input_NoInhibitor
+parent Perino_Mierlo_2020 on
+subGroups cellLine=E14 Ab=Input inhibitors=NoInhibitor
+bigDataUrl http://trackhub.science.ru.nl/hubs/mouse_veenstra/bw/Perino_Mierlo_2020/E14_FCS_Input.mapUnique.bw
+longLabel E14_Input_NoInhibitor
+shortLabel E14_Input_NoInhibitor_Perino_Mierlo_2020
+maxHeightPixels 128:30:16
+color 37,37,37
+type bigWig
+viewLimits 0:500
+
+	track E14_Jarid2_NoInhibitor
+parent Perino_Mierlo_2020 on
+subGroups cellLine=E14 Ab=Jarid2 inhibitors=NoInhibitor
+bigDataUrl http://trackhub.science.ru.nl/hubs/mouse_veenstra/bw/Perino_Mierlo_2020/E14_FCS_Jarid2.mapUnique.bw
+longLabel E14_Jarid2_NoInhibitor
+shortLabel E14_Jarid2_NoInhibitor_Perino_Mierlo_2020
+maxHeightPixels 128:30:16
+color 128,125,186
+type bigWig
+viewLimits 0:1000
+
+	track E14_Mtf2_NoInhibitor
+parent Perino_Mierlo_2020 on
+subGroups cellLine=E14 Ab=Mtf2 inhibitors=NoInhibitor
+bigDataUrl http://trackhub.science.ru.nl/hubs/mouse_veenstra/bw/Perino_Mierlo_2020/E14_FCS_Mtf2.mapUnique.bw
+longLabel E14_Mtf2_NoInhibitor
+shortLabel E14_Mtf2_NoInhibitor_Perino_Mierlo_2020
+maxHeightPixels 128:30:16
+color 174,1,126
+type bigWig
+viewLimits 0:1000
+
+	track E14_Ring1b_NoInhibitor
+parent Perino_Mierlo_2020 on
+subGroups cellLine=E14 Ab=Ring1b inhibitors=NoInhibitor
+bigDataUrl http://trackhub.science.ru.nl/hubs/mouse_veenstra/bw/Perino_Mierlo_2020/E14_FCS_Ring1b.mapUnique.bw
+longLabel E14_Ring1b_NoInhibitor
+shortLabel E14_Ring1b_NoInhibitor_Perino_Mierlo_2020
+maxHeightPixels 128:30:16
+color 8,81,156
+type bigWig
+viewLimits 0:800
+
+	track E4_Ezh2_EED226
+parent Perino_Mierlo_2020 on
+subGroups cellLine=E4 Ab=Ezh2 inhibitors=EED226
+bigDataUrl http://trackhub.science.ru.nl/hubs/mouse_veenstra/bw/Perino_Mierlo_2020/E4_FCS_226_Ezh2.mapUnique.bw
+longLabel E4_Ezh2_EED226
+shortLabel E4_Ezh2_EED226_Perino_Mierlo_2020
+maxHeightPixels 128:30:16
+color 254,153,41
+type bigWig
+viewLimits 0:800
+
+	track E4_Mtf2_EED226
+parent Perino_Mierlo_2020 on
+subGroups cellLine=E4 Ab=Mtf2 inhibitors=EED226
+bigDataUrl http://trackhub.science.ru.nl/hubs/mouse_veenstra/bw/Perino_Mierlo_2020/E4_FCS_226_Mtf2.mapUnique.bw
+longLabel E4_Mtf2_EED226
+shortLabel E4_Mtf2_EED226_Perino_Mierlo_2020
+maxHeightPixels 128:30:16
+color 174,1,126
+type bigWig
+viewLimits 0:1000
+
+	track E4_Ring1b_EED226
+parent Perino_Mierlo_2020 on
+subGroups cellLine=E4 Ab=Ring1b inhibitors=EED226
+bigDataUrl http://trackhub.science.ru.nl/hubs/mouse_veenstra/bw/Perino_Mierlo_2020/E4_FCS_226_Ring1b.mapUnique.bw
+longLabel E4_Ring1b_EED226
+shortLabel E4_Ring1b_EED226_Perino_Mierlo_2020
+maxHeightPixels 128:30:16
+color 8,81,156
+type bigWig
+viewLimits 0:800
+
+	track E4_Ezh2_NoInhibitor
+parent Perino_Mierlo_2020 on
+subGroups cellLine=E4 Ab=Ezh2 inhibitors=NoInhibitor
+bigDataUrl http://trackhub.science.ru.nl/hubs/mouse_veenstra/bw/Perino_Mierlo_2020/E4_FCS_Ezh2.mapUnique.bw
+longLabel E4_Ezh2_NoInhibitor
+shortLabel E4_Ezh2_NoInhibitor_Perino_Mierlo_2020
+maxHeightPixels 128:30:16
+color 254,153,41
+type bigWig
+viewLimits 0:800
+
+	track E4_H3K27me3_NoInhibitor
+parent Perino_Mierlo_2020 on
+subGroups cellLine=E4 Ab=H3K27me3 inhibitors=NoInhibitor
+bigDataUrl http://trackhub.science.ru.nl/hubs/mouse_veenstra/bw/Perino_Mierlo_2020/E4_FCS_H3K27me3.mapUnique.bw
+longLabel E4_H3K27me3_NoInhibitor
+shortLabel E4_H3K27me3_NoInhibitor_Perino_Mierlo_2020
+maxHeightPixels 128:30:16
+color 189,0,38
+type bigWig
+viewLimits 0:600
+
+	track E4_Mtf2_NoInhibitor
+parent Perino_Mierlo_2020 on
+subGroups cellLine=E4 Ab=Mtf2 inhibitors=NoInhibitor
+bigDataUrl http://trackhub.science.ru.nl/hubs/mouse_veenstra/bw/Perino_Mierlo_2020/E4_FCS_Mtf2.mapUnique.bw
+longLabel E4_Mtf2_NoInhibitor
+shortLabel E4_Mtf2_NoInhibitor_Perino_Mierlo_2020
+maxHeightPixels 128:30:16
+color 174,1,126
+type bigWig
+viewLimits 0:1000
+
+	track EEDKO_Mtf2_NoInhibitor
+parent Perino_Mierlo_2020 on
+subGroups cellLine=EEDKO Ab=Mtf2 inhibitors=NoInhibitor
+bigDataUrl http://trackhub.science.ru.nl/hubs/mouse_veenstra/bw/Perino_Mierlo_2020/EEDKO_FCS_Mtf2.mapUnique.bw
+longLabel EEDKO_Mtf2_NoInhibitor
+shortLabel EEDKO_Mtf2_NoInhibitor_Perino_Mierlo_2020
+maxHeightPixels 128:30:16
+color 174,1,126
+type bigWig
+viewLimits 0:1000
+
+	track Mtf2GT_Ezh2_EED226
+parent Perino_Mierlo_2020 on
+subGroups cellLine=Mtf2GT Ab=Ezh2 inhibitors=EED226
+bigDataUrl http://trackhub.science.ru.nl/hubs/mouse_veenstra/bw/Perino_Mierlo_2020/Mtf2GT_FCS_226_Ezh2.mapUnique.bw
+longLabel Mtf2GT_Ezh2_EED226
+shortLabel Mtf2GT_Ezh2_EED226_Perino_Mierlo_2020
+maxHeightPixels 128:30:16
+color 254,153,41
+type bigWig
+viewLimits 0:800
+
+	track Mtf2GT_Jarid2_EED226
+parent Perino_Mierlo_2020 on
+subGroups cellLine=Mtf2GT Ab=Jarid2 inhibitors=EED226
+bigDataUrl http://trackhub.science.ru.nl/hubs/mouse_veenstra/bw/Perino_Mierlo_2020/Mtf2GT_FCS_226_Jarid2.mapUnique.bw
+longLabel Mtf2GT_Jarid2_EED226
+shortLabel Mtf2GT_Jarid2_EED226_Perino_Mierlo_2020
+maxHeightPixels 128:30:16
+color 128,125,186
+type bigWig
+viewLimits 0:1000
+
+	track Mtf2GT_Ezh2_EED226_MG132
+parent Perino_Mierlo_2020 on
+subGroups cellLine=Mtf2GT Ab=Ezh2 inhibitors=EED226_MG132
+bigDataUrl http://trackhub.science.ru.nl/hubs/mouse_veenstra/bw/Perino_Mierlo_2020/Mtf2GT_FCS_226_MG132_Ezh2.mapUnique.bw
+longLabel Mtf2GT_Ezh2_EED226_MG132
+shortLabel Mtf2GT_Ezh2_EED226_MG132_Perino_Mierlo_2020
+maxHeightPixels 128:30:16
+color 254,153,41
+type bigWig
+viewLimits 0:800
+
+	track Mtf2GT_Ring1b_EED226
+parent Perino_Mierlo_2020 on
+subGroups cellLine=Mtf2GT Ab=Ring1b inhibitors=EED226
+bigDataUrl http://trackhub.science.ru.nl/hubs/mouse_veenstra/bw/Perino_Mierlo_2020/Mtf2GT_FCS_226_Ring1b.mapUnique.bw
+longLabel Mtf2GT_Ring1b_EED226
+shortLabel Mtf2GT_Ring1b_EED226_Perino_Mierlo_2020
+maxHeightPixels 128:30:16
+color 8,81,156
+type bigWig
+viewLimits 0:800
+
+	track Mtf2GT_Ezh2_NoInhibitor
+parent Perino_Mierlo_2020 on
+subGroups cellLine=Mtf2GT Ab=Ezh2 inhibitors=NoInhibitor
+bigDataUrl http://trackhub.science.ru.nl/hubs/mouse_veenstra/bw/Perino_Mierlo_2020/Mtf2GT_FCS_Ezh2.mapUnique.bw
+longLabel Mtf2GT_Ezh2_NoInhibitor
+shortLabel Mtf2GT_Ezh2_NoInhibitor_Perino_Mierlo_2020
+maxHeightPixels 128:30:16
+color 254,153,41
+type bigWig
+viewLimits 0:800
+
+	track Mtf2GT_H3K27me3_NoInhibitor
+parent Perino_Mierlo_2020 on
+subGroups cellLine=Mtf2GT Ab=H3K27me3 inhibitors=NoInhibitor
+bigDataUrl http://trackhub.science.ru.nl/hubs/mouse_veenstra/bw/Perino_Mierlo_2020/Mtf2GT_FCS_H3K27me3.mapUnique.bw
+longLabel Mtf2GT_H3K27me3_NoInhibitor
+shortLabel Mtf2GT_H3K27me3_NoInhibitor_Perino_Mierlo_2020
+maxHeightPixels 128:30:16
+color 189,0,38
+type bigWig
+viewLimits 0:600
+
+	track Mtf2GT_H3K4me3_NoInhibitor
+parent Perino_Mierlo_2020 on
+subGroups cellLine=Mtf2GT Ab=H3K4me3 inhibitors=NoInhibitor
+bigDataUrl http://trackhub.science.ru.nl/hubs/mouse_veenstra/bw/Perino_Mierlo_2020/Mtf2GT_FCS_H3K4me3.mapUnique.bw
+longLabel Mtf2GT_H3K4me3_NoInhibitor
+shortLabel Mtf2GT_H3K4me3_NoInhibitor_Perino_Mierlo_2020
+maxHeightPixels 128:30:16
+color 18,129,17
+type bigWig
+viewLimits 0:500
+
+	track Mtf2GT_Jarid2_NoInhibitor
+parent Perino_Mierlo_2020 on
+subGroups cellLine=Mtf2GT Ab=Jarid2 inhibitors=NoInhibitor
+bigDataUrl http://trackhub.science.ru.nl/hubs/mouse_veenstra/bw/Perino_Mierlo_2020/Mtf2GT_FCS_Jarid2.mapUnique.bw
+longLabel Mtf2GT_Jarid2_NoInhibitor
+shortLabel Mtf2GT_Jarid2_NoInhibitor_Perino_Mierlo_2020
+maxHeightPixels 128:30:16
+color 128,125,186
+type bigWig
+viewLimits 0:1000
+
+	track R1AB_Ezh2_EED226
+parent Perino_Mierlo_2020 on
+subGroups cellLine=R1AB Ab=Ezh2 inhibitors=EED226
+bigDataUrl http://trackhub.science.ru.nl/hubs/mouse_veenstra/bw/Perino_Mierlo_2020/R1AB_FCS_226_Ezh2.mapUnique.bw
+longLabel R1AB_Ezh2_EED226
+shortLabel R1AB_Ezh2_EED226_Perino_Mierlo_2020
+maxHeightPixels 128:30:16
+color 254,153,41
+type bigWig
+viewLimits 0:800
+
+	track R1AB_Jarid2_EED226
+parent Perino_Mierlo_2020 on
+subGroups cellLine=R1AB Ab=Jarid2 inhibitors=EED226
+bigDataUrl http://trackhub.science.ru.nl/hubs/mouse_veenstra/bw/Perino_Mierlo_2020/R1AB_FCS_226_Jarid2.mapUnique.bw
+longLabel R1AB_Jarid2_EED226
+shortLabel R1AB_Jarid2_EED226_Perino_Mierlo_2020
+maxHeightPixels 128:30:16
+color 128,125,186
+type bigWig
+viewLimits 0:1000
+
+	track R1AB_Mtf2_EED226
+parent Perino_Mierlo_2020 on
+subGroups cellLine=R1AB Ab=Mtf2 inhibitors=EED226
+bigDataUrl http://trackhub.science.ru.nl/hubs/mouse_veenstra/bw/Perino_Mierlo_2020/R1AB_FCS_226_Mtf2.mapUnique.bw
+longLabel R1AB_Mtf2_EED226
+shortLabel R1AB_Mtf2_EED226_Perino_Mierlo_2020
+maxHeightPixels 128:30:16
+color 174,1,126
+type bigWig
+viewLimits 0:1000
+
+	track R1AB_Ezh2_NoInhibitor
+parent Perino_Mierlo_2020 on
+subGroups cellLine=R1AB Ab=Ezh2 inhibitors=NoInhibitor
+bigDataUrl http://trackhub.science.ru.nl/hubs/mouse_veenstra/bw/Perino_Mierlo_2020/R1AB_FCS_Ezh2.mapUnique.bw
+longLabel R1AB_Ezh2_NoInhibitor
+shortLabel R1AB_Ezh2_NoInhibitor_Perino_Mierlo_2020
+maxHeightPixels 128:30:16
+color 254,153,41
+type bigWig
+viewLimits 0:800
+
+	track R1AB_Jarid2_NoInhibitor
+parent Perino_Mierlo_2020 on
+subGroups cellLine=R1AB Ab=Jarid2 inhibitors=NoInhibitor
+bigDataUrl http://trackhub.science.ru.nl/hubs/mouse_veenstra/bw/Perino_Mierlo_2020/R1AB_FCS_Jarid2.mapUnique.bw
+longLabel R1AB_Jarid2_NoInhibitor
+shortLabel R1AB_Jarid2_NoInhibitor_Perino_Mierlo_2020
+maxHeightPixels 128:30:16
+color 128,125,186
+type bigWig
+viewLimits 0:1000
+
+	track R1AB_Mtf2_NoInhibitor
+parent Perino_Mierlo_2020 on
+subGroups cellLine=R1AB Ab=Mtf2 inhibitors=NoInhibitor
+bigDataUrl http://trackhub.science.ru.nl/hubs/mouse_veenstra/bw/Perino_Mierlo_2020/R1AB_FCS_Mtf2.mapUnique.bw
+longLabel R1AB_Mtf2_NoInhibitor
+shortLabel R1AB_Mtf2_NoInhibitor_Perino_Mierlo_2020
+maxHeightPixels 128:30:16
+color 174,1,126
+type bigWig
+viewLimits 0:1000
+

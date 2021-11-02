@@ -1,0 +1,9 @@
+genome kPetMar1.pri
+trackDb kPetMar1.pri/trackDb.txt
+twoBitPath https://mbdata.science.ru.nl/tschaefers/resources/kPetMar1.pri/kPetMar1.pri.2bit
+groups kPetMar1.pri/groups.txt
+description kPetMar1.pri
+organism kPetMar1.pri
+scientificName kPetMar1.pri
+defaultPos chr1:0-100000
+

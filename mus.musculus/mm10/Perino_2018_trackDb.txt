@@ -1,0 +1,170 @@
+track Perino_2018
+type bigWig
+compositeTrack on
+shortLabel Perino_2018 tracks
+longLabel Perino_2018 tracks
+visibility hide
+dragAndDrop subTracks
+priority 2.0
+subGroup1 cellLine Cell_Line \ 
+        mES=WT_mES \ 
+        E14=WT_E14 \ 
+        Mtf2GT=Mtf2_Gene_Trap \ 
+        E4=E4_Jarid2_KO \ 
+        EedKO=Eed_KO
+subGroup2 Ab Antibody \ 
+        BioCap=BioCap \ 
+        Mtf2=Mtf2 \ 
+        Ezh2=Ezh2 \ 
+        H3K4me3=H3K4me3 \ 
+        H3K27me3=H3K27me3 \ 
+        Jarid2=Jarid2 \ 
+        Input=Input
+dimensions dimX=cellLine dimY=Ab 
+autoScale off 
+sortOrder Ab=+ cellLine=+
+dragAndDrop on 
+
+	track mES_BioCap
+parent Perino_2018 on
+subGroups cellLine=mES Ab=BioCap
+bigDataUrl http://trackhub.science.ru.nl/hubs/mouse_veenstra/bw/Perino_2018/BioCap_mES.bw
+longLabel mES_BioCap
+shortLabel mES_BioCap_Perino_2018
+maxHeightPixels 128:30:16
+color 0,43,255
+type bigWig
+viewLimits 0:500
+
+	track E14_Ezh2
+parent Perino_2018 on
+subGroups cellLine=E14 Ab=Ezh2
+bigDataUrl http://trackhub.science.ru.nl/hubs/mouse_veenstra/bw/Perino_2018/E14_Ezh2.bw
+longLabel E14_Ezh2
+shortLabel E14_Ezh2_Perino_2018
+maxHeightPixels 128:30:16
+color 254,153,41
+type bigWig
+viewLimits 0:800
+
+	track E14_Jarid2
+parent Perino_2018 on
+subGroups cellLine=E14 Ab=Jarid2
+bigDataUrl http://trackhub.science.ru.nl/hubs/mouse_veenstra/bw/Perino_2018/E14_FCS_Jarid2.mapUnique.bw
+longLabel E14_Jarid2
+shortLabel E14_Jarid2_Perino_2018
+maxHeightPixels 128:30:16
+color 128,125,186
+type bigWig
+viewLimits 0:1000
+
+	track E14_H3K27me3
+parent Perino_2018 on
+subGroups cellLine=E14 Ab=H3K27me3
+bigDataUrl http://trackhub.science.ru.nl/hubs/mouse_veenstra/bw/Perino_2018/E14_H3K27me3.bw
+longLabel E14_H3K27me3
+shortLabel E14_H3K27me3_Perino_2018
+maxHeightPixels 128:30:16
+color 189,0,38
+type bigWig
+viewLimits 0:600
+
+	track E14_H3K4me3
+parent Perino_2018 on
+subGroups cellLine=E14 Ab=H3K4me3
+bigDataUrl http://trackhub.science.ru.nl/hubs/mouse_veenstra/bw/Perino_2018/E14_H3K4me3.bw
+longLabel E14_H3K4me3
+shortLabel E14_H3K4me3_Perino_2018
+maxHeightPixels 128:30:16
+color 18,129,17
+type bigWig
+viewLimits 0:500
+
+	track E14_Mtf2
+parent Perino_2018 on
+subGroups cellLine=E14 Ab=Mtf2
+bigDataUrl http://trackhub.science.ru.nl/hubs/mouse_veenstra/bw/Perino_2018/E14_Mtf2.bw
+longLabel E14_Mtf2
+shortLabel E14_Mtf2_Perino_2018
+maxHeightPixels 128:30:16
+color 174,1,126
+type bigWig
+viewLimits 0:1000
+
+	track E4_Mtf2
+parent Perino_2018 on
+subGroups cellLine=E4 Ab=Mtf2
+bigDataUrl http://trackhub.science.ru.nl/hubs/mouse_veenstra/bw/Perino_2018/E4_FCS_Mtf2.mapUnique.bw
+longLabel E4_Mtf2
+shortLabel E4_Mtf2_Perino_2018
+maxHeightPixels 128:30:16
+color 174,1,126
+type bigWig
+viewLimits 0:1000
+
+	track Mtf2GT_Ezh2
+parent Perino_2018 on
+subGroups cellLine=Mtf2GT Ab=Ezh2
+bigDataUrl http://trackhub.science.ru.nl/hubs/mouse_veenstra/bw/Perino_2018/ES_Mtf2GT_Ezh2.bw
+longLabel Mtf2GT_Ezh2
+shortLabel Mtf2GT_Ezh2_Perino_2018
+maxHeightPixels 128:30:16
+color 254,153,41
+type bigWig
+viewLimits 0:800
+
+	track Mtf2GT_H3K27me3
+parent Perino_2018 on
+subGroups cellLine=Mtf2GT Ab=H3K27me3
+bigDataUrl http://trackhub.science.ru.nl/hubs/mouse_veenstra/bw/Perino_2018/ES_Mtf2GT_H3K27me3.bw
+longLabel Mtf2GT_H3K27me3
+shortLabel Mtf2GT_H3K27me3_Perino_2018
+maxHeightPixels 128:30:16
+color 189,0,38
+type bigWig
+viewLimits 0:600
+
+	track Mtf2GT_H3K4me3
+parent Perino_2018 on
+subGroups cellLine=Mtf2GT Ab=H3K4me3
+bigDataUrl http://trackhub.science.ru.nl/hubs/mouse_veenstra/bw/Perino_2018/ES_Mtf2GT_H3K4me3.bw
+longLabel Mtf2GT_H3K4me3
+shortLabel Mtf2GT_H3K4me3_Perino_2018
+maxHeightPixels 128:30:16
+color 18,129,17
+type bigWig
+viewLimits 0:500
+
+	track Mtf2GT_Jarid2
+parent Perino_2018 on
+subGroups cellLine=Mtf2GT Ab=Jarid2
+bigDataUrl http://trackhub.science.ru.nl/hubs/mouse_veenstra/bw/Perino_2018/Mtf2GT_FCS_Jarid2.mapUnique.bw
+longLabel Mtf2GT_Jarid2
+shortLabel Mtf2GT_Jarid2_Perino_2018
+maxHeightPixels 128:30:16
+color 128,125,186
+type bigWig
+viewLimits 0:1000
+
+	track EEDKO_Mtf2
+parent Perino_2018 on
+subGroups cellLine=EEDKO Ab=Mtf2
+bigDataUrl http://trackhub.science.ru.nl/hubs/mouse_veenstra/bw/Perino_2018/EEDKO_FCS_Mtf2.mapUnique.bw
+longLabel EEDKO_Mtf2
+shortLabel EEDKO_Mtf2_Perino_2018
+maxHeightPixels 128:30:16
+color 174,1,126
+type bigWig
+viewLimits 0:1000
+
+	track E14_Input
+parent Perino_2018 on
+subGroups cellLine=E14 Ab=Input
+bigDataUrl http://trackhub.science.ru.nl/hubs/mouse_veenstra/bw/Perino_2018/E14_FCS_Input.mapUnique.bw
+longLabel E14_Input
+shortLabel E14_Input_Perino_2018
+maxHeightPixels 128:30:16
+color 37,37,37
+type bigWig
+viewLimits 0:800
+
