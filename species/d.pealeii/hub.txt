@@ -1,5 +1,0 @@
-hub Doryteuthis pealeii
-shortLabel G.J.Veenstra D.pealeii trackhub
-longLabel G.J.Veenstra Dpe_v2.1 UCSC trackhub - Radboud University, Molecular Developmental Biology Dept.
-genomesFile genomes.txt
-email g.veenstra@science.ru.nl 

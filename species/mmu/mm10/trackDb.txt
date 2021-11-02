@@ -1,5 +1,0 @@
-include annotation_trackDb.txt
-include Perino_2018_peaks.txt
-include Perino_2018_trackDb.txt
-include Perino_Mierlo_2020_peaks.txt
-include Perino_Mierlo_2020_trackDb.txt
