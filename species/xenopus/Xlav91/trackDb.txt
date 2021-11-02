@@ -1,3 +1,0 @@
-include chip_trackDb.txt
-include annotation_trackDb_internal.txt
-include dna_methylation.txt
