@@ -12,3 +12,45 @@
 8. If the track hub is not selected, or to select the trackhub again among previously loaded trackhubs: In the genome browser, click the top menu item "Genomes" to go to the Genome Browser Gateway page. To the left, under "Represented speces" the track hub "G.J.Veenstra mm10 trackhub" should be listed. Click it to select the trackhub.
 9. Click "Go" to move to a position in the genome.
 10. Browse the genome or modify track settings (right click on the track, or use track controls under main graphic) 
+
+### Contributing guidelines
+1. Fork this repository
+2. Add your modification and commit changes
+3. Submit a pull request
+
+### Resource files ###
+Place all your large data files (bed, bigwig, ix etc). in a web-accesible location under the corresponding genome assembly. 
+
+
+### Adding new trackhub records ###
+A new trackhub record should have the file hierachy below.
+
+**{species}**
+- genomes.txt
+- hub.txt
+ - **{assembly_id}**
+    - trackDB.txt, 
+    - annotation.txt etc.
+
+In case you want to add multiple species from the same genus, add your trackhub within a folder with the genus name.
+
+**{genus}**
+
+**{species 1}**
+- genomes.txt
+- hub.txt
+ - **{assembly_id}**
+    - trackDB.txt, 
+    - annotation.txt etc.
+    - 
+**{species 2}**
+- genomes.txt
+- hub.txt
+ - **{assembly_id}**
+    - trackDB.txt, 
+    - annotation.txt etc.
+
+
+
+
+
