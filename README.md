@@ -15,7 +15,7 @@
 
 ### Contributing guidelines
 1. Fork this repository
-2. Add your modification and commit changes
+2. Add your modification and commit changes to your fork
 3. Submit a pull request
 
 ### Resource files ###
