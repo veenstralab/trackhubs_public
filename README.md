@@ -3,11 +3,7 @@
 
 - [kPetMar1.pri](https://trackhub.science.ru.nl/hubs/veenstralab/trackhubs_public/petromyzon.marinus/hub.txt)
 - [mm10](https://trackhub.science.ru.nl/hubs/veenstralab/trackhubs_public/mus.musculus/hub.txt)
-- [xenopus](https://trackhub.science.ru.nl/hubs/veenstralab/trackhubs_public/xenopus/hub.txt)
- - xLav91
- - xt7_1
- - xt8_0
- - xt9_0
+- [xenopus](https://trackhub.science.ru.nl/hubs/veenstralab/trackhubs_public/xenopus/hub.txt) (xLav91, xt7_1, xt8_0, xt9_0)
 
 ### Track hub instructions
 
