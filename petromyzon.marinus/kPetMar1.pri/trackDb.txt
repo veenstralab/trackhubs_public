@@ -1,11 +1,11 @@
 track cytoBandIdeo
-bigDataUrl https://mbdata.science.ru.nl/tschaefers/resources/kPetMar1.pri/cytoBandIdeo.bigBed
+bigDataUrl https://trackhub.science.ru.nl/hubs/veenstralab/resources/genomes/petromyzon.marinus/kPetMar1.pri/annotation/cytoBandIdeo.bigBed
 shortLabel cytoBandIdeo
 longLabel Chromosome ideogram with cytogenetic bands
 type bigBed
 
 track gcPercent
-bigDataUrl https://mbdata.science.ru.nl/tschaefers/resources/kPetMar1.pri/gcPercent.bigWig
+bigDataUrl https://trackhub.science.ru.nl/hubs/veenstralab/resources/genomes/petromyzon.marinus/kPetMar1.pri/annotation/gcPercent.bigWig
 shortLabel gcPercent
 longLabel gcPercent
 type bigWig
@@ -15,7 +15,7 @@ priority 1
 visibility dense
 
 track softmasked
-bigDataUrl https://mbdata.science.ru.nl/tschaefers/resources/kPetMar1.pri/softmasked.bigBed
+bigDataUrl https://trackhub.science.ru.nl/hubs/veenstralab/resources/genomes/petromyzon.marinus/kPetMar1.pri/annotation/softmasked.bigBed
 shortLabel softmasked
 longLabel softmasked
 type bigBed
@@ -25,7 +25,7 @@ priority 2
 visibility dense
 
 track annotation
-bigDataUrl https://mbdata.science.ru.nl/tschaefers/resources/kPetMar1.pri/annotation.bigBed
+bigDataUrl https://trackhub.science.ru.nl/hubs/veenstralab/resources/genomes/petromyzon.marinus/kPetMar1.pri/annotation/annotation.bigBed
 shortLabel annotation
 longLabel annotation
 type bigBed 12
@@ -58,7 +58,7 @@ compositeTrack on
     visibility full
     
             track SRR388692
-            bigDataUrl https://mbdata.science.ru.nl/tschaefers/resources/kPetMar1.pri/SRR388692.bigWig
+            bigDataUrl https://trackhub.science.ru.nl/hubs/veenstralab/resources/genomes/petromyzon.marinus/kPetMar1.pri/bigwig/SRR388692.bigWig
             shortLabel SRR388692
             longLabel SRR388692
             type bigWig
@@ -69,7 +69,7 @@ compositeTrack on
             subGroups samples=SRR388692 view=forward
     
             track SRR389311
-            bigDataUrl https://mbdata.science.ru.nl/tschaefers/resources/kPetMar1.pri/SRR389311.bigWig
+            bigDataUrl https://trackhub.science.ru.nl/hubs/veenstralab/resources/genomes/petromyzon.marinus/kPetMar1.pri/bigwig/SRR389311.bigWig
             shortLabel SRR389311
             longLabel SRR389311
             type bigWig
@@ -80,7 +80,7 @@ compositeTrack on
             subGroups samples=SRR389311 view=forward
     
             track SRR3002835
-            bigDataUrl https://mbdata.science.ru.nl/tschaefers/resources/kPetMar1.pri/SRR3002835.bigWig
+            bigDataUrl https://trackhub.science.ru.nl/hubs/veenstralab/resources/genomes/petromyzon.marinus/kPetMar1.pri/bigwig/SRR3002835.bigWig
             shortLabel SRR3002835
             longLabel SRR3002835
             type bigWig
@@ -91,7 +91,7 @@ compositeTrack on
             subGroups samples=SRR3002835 view=forward
     
             track SRR3002836
-            bigDataUrl https://mbdata.science.ru.nl/tschaefers/resources/kPetMar1.pri/SRR3002836.bigWig
+            bigDataUrl https://trackhub.science.ru.nl/hubs/veenstralab/resources/genomes/petromyzon.marinus/kPetMar1.pri/bigwig/SRR3002836.bigWig
             shortLabel SRR3002836
             longLabel SRR3002836
             type bigWig
@@ -102,7 +102,7 @@ compositeTrack on
             subGroups samples=SRR3002836 view=forward
     
             track SRR3002837
-            bigDataUrl https://mbdata.science.ru.nl/tschaefers/resources/kPetMar1.pri/SRR3002837.bigWig
+            bigDataUrl https://trackhub.science.ru.nl/hubs/veenstralab/resources/genomes/petromyzon.marinus/kPetMar1.pri/bigwig/SRR3002837.bigWig
             shortLabel SRR3002837
             longLabel SRR3002837
             type bigWig
@@ -113,7 +113,7 @@ compositeTrack on
             subGroups samples=SRR3002837 view=forward
     
             track SRR3002850
-            bigDataUrl https://mbdata.science.ru.nl/tschaefers/resources/kPetMar1.pri/SRR3002850.bigWig
+            bigDataUrl https://trackhub.science.ru.nl/hubs/veenstralab/resources/genomes/petromyzon.marinus/kPetMar1.pri/bigwig/SRR3002850.bigWig
             shortLabel SRR3002850
             longLabel SRR3002850
             type bigWig
@@ -124,7 +124,7 @@ compositeTrack on
             subGroups samples=SRR3002850 view=forward
     
             track SRR3002851
-            bigDataUrl https://mbdata.science.ru.nl/tschaefers/resources/kPetMar1.pri/SRR3002851.bigWig
+            bigDataUrl https://trackhub.science.ru.nl/hubs/veenstralab/resources/genomes/petromyzon.marinus/kPetMar1.pri/bigwig/SRR3002851.bigWig
             shortLabel SRR3002851
             longLabel SRR3002851
             type bigWig
@@ -135,7 +135,7 @@ compositeTrack on
             subGroups samples=SRR3002851 view=forward
     
             track SRR3002852
-            bigDataUrl https://mbdata.science.ru.nl/tschaefers/resources/kPetMar1.pri/SRR3002852.bigWig
+            bigDataUrl https://trackhub.science.ru.nl/hubs/veenstralab/resources/genomes/petromyzon.marinus/kPetMar1.pri/bigwig/SRR3002852.bigWig
             shortLabel SRR3002852
             longLabel SRR3002852
             type bigWig
@@ -146,7 +146,7 @@ compositeTrack on
             subGroups samples=SRR3002852 view=forward
     
             track SRR369904
-            bigDataUrl https://mbdata.science.ru.nl/tschaefers/resources/kPetMar1.pri/SRR369904.bigWig
+            bigDataUrl https://trackhub.science.ru.nl/hubs/veenstralab/resources/genomes/petromyzon.marinus/kPetMar1.pri/bigwig/SRR369904.bigWig
             shortLabel SRR369904
             longLabel SRR369904
             type bigWig
