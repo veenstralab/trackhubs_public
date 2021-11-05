@@ -24,7 +24,7 @@
 3. Submit a pull request
 
 ### Resource files ###
-Place all your large data files (bed, bigwig, ix etc). in a web-accesible location under the corresponding genome assembly. 
+Place all your large data files (bed, bigwig, ix etc). in a web-accesible location under the corresponding genome assembly. **Please do not add them to this repository.** 
 
 
 ### Adding new trackhub records ###
