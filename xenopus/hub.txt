@@ -2,5 +2,5 @@ hub Xenopus
 shortLabel Xenopus UCSC hub
 longLabel Molecular Developmental Biology - Xenopus Group UCSC hub - Public trackhub
 genomesFile genomes.txt
-email g.georgiou@science.ru.nl
+email gertjan.veenstra@ru.nl
 descriptionUrl hub.html
