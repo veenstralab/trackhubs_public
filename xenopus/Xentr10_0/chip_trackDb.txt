@@ -1,0 +1,1237 @@
+track ChIPseqsamples
+shortLabel ChIP-seq
+longLabel ChIP-seq samples
+type bigWig
+dimensions dimX=view dimY=conditions
+visibility dense
+subGroup1 view Views peaks=peaks signal=signal
+subGroup2 conditions Conditions H3K27me3stage105=H3K27me3_stage10.5 H3K27me3stage12=H3K27me3_stage12 H3K27me3stage16=H3K27me3_stage16 H3K27me3stage30=H3K27me3_stage30 H3K27me3stage8=H3K27me3_stage8 H3K27me3stage9=H3K27me3_stage9 H3K36me3stage105=H3K36me3_stage10.5 H3K36me3stage12=H3K36me3_stage12 H3K36me3stage16=H3K36me3_stage16 H3K36me3stage30=H3K36me3_stage30 H3K36me3stage9=H3K36me3_stage9 H3K4me1stage105=H3K4me1_stage10.5 H3K4me1stage12=H3K4me1_stage12 H3K4me1stage16=H3K4me1_stage16 H3K4me1stage30=H3K4me1_stage30 H3K4me1stage9=H3K4me1_stage9 H3K4me3stage105=H3K4me3_stage10.5 H3K4me3stage12=H3K4me3_stage12 H3K4me3stage16=H3K4me3_stage16 H3K4me3stage30=H3K4me3_stage30 H3K4me3stage8=H3K4me3_stage8 H3K4me3stage9=H3K4me3_stage9 H3K9acstage105=H3K9ac_stage10.5 H3K9acstage12=H3K9ac_stage12 H3K9acstage16=H3K9ac_stage16 H3K9acstage30=H3K9ac_stage30 H3K9acstage8=H3K9ac_stage8 H3K9acstage9=H3K9ac_stage9 H3K9me2stage105=H3K9me2_stage10.5 H3K9me2stage12=H3K9me2_stage12 H3K9me2stage16=H3K9me2_stage16 H3K9me2stage30=H3K9me2_stage30 H3K9me2stage9=H3K9me2_stage9 H3K9me3stage105=H3K9me3_stage10.5 H3K9me3stage12=H3K9me3_stage12 H3K9me3stage16=H3K9me3_stage16 H3K9me3stage30=H3K9me3_stage30 H3K9me3stage9=H3K9me3_stage9 H4K20me3stage105=H4K20me3_stage10.5 H4K20me3stage12=H4K20me3_stage12 H4K20me3stage16=H4K20me3_stage16 H4K20me3stage30=H4K20me3_stage30 H4K20me3stage9=H4K20me3_stage9 MethylCseqxtst105=MethylC-seq_xt_st10.5 MethylCseqxtst9=MethylC-seq_xt_st9 p300stage105=p300_stage10.5 p300stage12=p300_stage12 p300stage16=p300_stage16 p300stage30=p300_stage30 p300stage9=p300_stage9 RNAPIIstage105=RNAPII_stage10.5 RNAPIIstage12=RNAPII_stage12 RNAPIIstage16=RNAPII_stage16 RNAPIIstage30=RNAPII_stage30 RNAPIIstage9=RNAPII_stage9
+autoScale group
+compositeTrack on
+
+    track peaks
+    shortLabel peaks
+    longLabel peaks
+    type bigNarrowPeak
+    parent ChIPseqsamples
+    view peaks
+    visibility dense
+    
+            track H3K27me3stage105pk
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H3K27me3stage105pk.bigNarrowPeak
+            shortLabel H3K27me3stg105 pk
+            longLabel H3K27me3_stage10.5 peaks
+            type bigNarrowPeak
+            color 139,0,0
+            parent peaks
+            priority 11.0
+            visibility full
+            subGroups conditions=H3K27me3stage105 view=peaks
+    
+            track H3K27me3stage12pk
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H3K27me3stage12pk.bigNarrowPeak
+            shortLabel H3K27me3stag12 pk
+            longLabel H3K27me3_stage12 peaks
+            type bigNarrowPeak
+            color 139,0,0
+            parent peaks
+            priority 13.0
+            visibility full
+            subGroups conditions=H3K27me3stage12 view=peaks
+    
+            track H3K27me3stage16pk
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H3K27me3stage16pk.bigNarrowPeak
+            shortLabel H3K27me3stag16 pk
+            longLabel H3K27me3_stage16 peaks
+            type bigNarrowPeak
+            color 139,0,0
+            parent peaks
+            priority 15.0
+            visibility full
+            subGroups conditions=H3K27me3stage16 view=peaks
+    
+            track H3K27me3stage30pk
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H3K27me3stage30pk.bigNarrowPeak
+            shortLabel H3K27me3stag30 pk
+            longLabel H3K27me3_stage30 peaks
+            type bigNarrowPeak
+            color 139,0,0
+            parent peaks
+            priority 17.0
+            visibility full
+            subGroups conditions=H3K27me3stage30 view=peaks
+    
+            track H3K27me3stage8pk
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H3K27me3stage8pk.bigNarrowPeak
+            shortLabel H3K27me3stage8 pk
+            longLabel H3K27me3_stage8 peaks
+            type bigNarrowPeak
+            color 139,0,0
+            parent peaks
+            priority 19.0
+            visibility full
+            subGroups conditions=H3K27me3stage8 view=peaks
+    
+            track H3K27me3stage9pk
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H3K27me3stage9pk.bigNarrowPeak
+            shortLabel H3K27me3stage9 pk
+            longLabel H3K27me3_stage9 peaks
+            type bigNarrowPeak
+            color 139,0,0
+            parent peaks
+            priority 21.0
+            visibility full
+            subGroups conditions=H3K27me3stage9 view=peaks
+    
+            track H3K36me3stage105pk
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H3K36me3stage105pk.bigNarrowPeak
+            shortLabel H3K36me3stg105 pk
+            longLabel H3K36me3_stage10.5 peaks
+            type bigNarrowPeak
+            color 32,178,170
+            parent peaks
+            priority 23.0
+            visibility full
+            subGroups conditions=H3K36me3stage105 view=peaks
+    
+            track H3K36me3stage12pk
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H3K36me3stage12pk.bigNarrowPeak
+            shortLabel H3K36me3stag12 pk
+            longLabel H3K36me3_stage12 peaks
+            type bigNarrowPeak
+            color 32,178,170
+            parent peaks
+            priority 25.0
+            visibility full
+            subGroups conditions=H3K36me3stage12 view=peaks
+    
+            track H3K36me3stage16pk
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H3K36me3stage16pk.bigNarrowPeak
+            shortLabel H3K36me3stag16 pk
+            longLabel H3K36me3_stage16 peaks
+            type bigNarrowPeak
+            color 32,178,170
+            parent peaks
+            priority 27.0
+            visibility full
+            subGroups conditions=H3K36me3stage16 view=peaks
+    
+            track H3K36me3stage30pk
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H3K36me3stage30pk.bigNarrowPeak
+            shortLabel H3K36me3stag30 pk
+            longLabel H3K36me3_stage30 peaks
+            type bigNarrowPeak
+            color 32,178,170
+            parent peaks
+            priority 29.0
+            visibility full
+            subGroups conditions=H3K36me3stage30 view=peaks
+    
+            track H3K36me3stage9pk
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H3K36me3stage9pk.bigNarrowPeak
+            shortLabel H3K36me3stage9 pk
+            longLabel H3K36me3_stage9 peaks
+            type bigNarrowPeak
+            color 32,178,170
+            parent peaks
+            priority 31.0
+            visibility full
+            subGroups conditions=H3K36me3stage9 view=peaks
+    
+            track H3K4me1stage105pk
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H3K4me1stage105pk.bigNarrowPeak
+            shortLabel H3K4me1stag105 pk
+            longLabel H3K4me1_stage10.5 peaks
+            type bigNarrowPeak
+            color 0,191,255
+            parent peaks
+            priority 33.0
+            visibility full
+            subGroups conditions=H3K4me1stage105 view=peaks
+    
+            track H3K4me1stage12pk
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H3K4me1stage12pk.bigNarrowPeak
+            shortLabel H3K4me1stage12 pk
+            longLabel H3K4me1_stage12 peaks
+            type bigNarrowPeak
+            color 0,191,255
+            parent peaks
+            priority 35.0
+            visibility full
+            subGroups conditions=H3K4me1stage12 view=peaks
+    
+            track H3K4me1stage16pk
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H3K4me1stage16pk.bigNarrowPeak
+            shortLabel H3K4me1stage16 pk
+            longLabel H3K4me1_stage16 peaks
+            type bigNarrowPeak
+            color 0,191,255
+            parent peaks
+            priority 37.0
+            visibility full
+            subGroups conditions=H3K4me1stage16 view=peaks
+    
+            track H3K4me1stage30pk
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H3K4me1stage30pk.bigNarrowPeak
+            shortLabel H3K4me1stage30 pk
+            longLabel H3K4me1_stage30 peaks
+            type bigNarrowPeak
+            color 0,191,255
+            parent peaks
+            priority 39.0
+            visibility full
+            subGroups conditions=H3K4me1stage30 view=peaks
+    
+            track H3K4me1stage9pk
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H3K4me1stage9pk.bigNarrowPeak
+            shortLabel H3K4me1_stage9 pk
+            longLabel H3K4me1_stage9 peaks
+            type bigNarrowPeak
+            color 0,191,255
+            parent peaks
+            priority 41.0
+            visibility full
+            subGroups conditions=H3K4me1stage9 view=peaks
+    
+            track H3K4me3stage105pk
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H3K4me3stage105pk.bigNarrowPeak
+            shortLabel H3K4me3stag105 pk
+            longLabel H3K4me3_stage10.5 peaks
+            type bigNarrowPeak
+            color 0,128,0
+            parent peaks
+            priority 43.0
+            visibility full
+            subGroups conditions=H3K4me3stage105 view=peaks
+    
+            track H3K4me3stage12pk
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H3K4me3stage12pk.bigNarrowPeak
+            shortLabel H3K4me3stage12 pk
+            longLabel H3K4me3_stage12 peaks
+            type bigNarrowPeak
+            color 0,128,0
+            parent peaks
+            priority 45.0
+            visibility full
+            subGroups conditions=H3K4me3stage12 view=peaks
+    
+            track H3K4me3stage16pk
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H3K4me3stage16pk.bigNarrowPeak
+            shortLabel H3K4me3stage16 pk
+            longLabel H3K4me3_stage16 peaks
+            type bigNarrowPeak
+            color 0,128,0
+            parent peaks
+            priority 47.0
+            visibility full
+            subGroups conditions=H3K4me3stage16 view=peaks
+    
+            track H3K4me3stage30pk
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H3K4me3stage30pk.bigNarrowPeak
+            shortLabel H3K4me3stage30 pk
+            longLabel H3K4me3_stage30 peaks
+            type bigNarrowPeak
+            color 0,128,0
+            parent peaks
+            priority 49.0
+            visibility full
+            subGroups conditions=H3K4me3stage30 view=peaks
+    
+            track H3K4me3stage8pk
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H3K4me3stage8pk.bigNarrowPeak
+            shortLabel H3K4me3_stage8 pk
+            longLabel H3K4me3_stage8 peaks
+            type bigNarrowPeak
+            color 0,128,0
+            parent peaks
+            priority 51.0
+            visibility full
+            subGroups conditions=H3K4me3stage8 view=peaks
+    
+            track H3K4me3stage9pk
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H3K4me3stage9pk.bigNarrowPeak
+            shortLabel H3K4me3_stage9 pk
+            longLabel H3K4me3_stage9 peaks
+            type bigNarrowPeak
+            color 0,128,0
+            parent peaks
+            priority 53.0
+            visibility full
+            subGroups conditions=H3K4me3stage9 view=peaks
+    
+            track H3K9acstage105pk
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H3K9acstage105pk.bigNarrowPeak
+            shortLabel H3K9acstage105 pk
+            longLabel H3K9ac_stage10.5 peaks
+            type bigNarrowPeak
+            color 255,0,255
+            parent peaks
+            priority 55.0
+            visibility full
+            subGroups conditions=H3K9acstage105 view=peaks
+    
+            track H3K9acstage12pk
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H3K9acstage12pk.bigNarrowPeak
+            shortLabel H3K9ac_stage12 pk
+            longLabel H3K9ac_stage12 peaks
+            type bigNarrowPeak
+            color 255,0,255
+            parent peaks
+            priority 57.0
+            visibility full
+            subGroups conditions=H3K9acstage12 view=peaks
+    
+            track H3K9acstage16pk
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H3K9acstage16pk.bigNarrowPeak
+            shortLabel H3K9ac_stage16 pk
+            longLabel H3K9ac_stage16 peaks
+            type bigNarrowPeak
+            color 255,0,255
+            parent peaks
+            priority 59.0
+            visibility full
+            subGroups conditions=H3K9acstage16 view=peaks
+    
+            track H3K9acstage30pk
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H3K9acstage30pk.bigNarrowPeak
+            shortLabel H3K9ac_stage30 pk
+            longLabel H3K9ac_stage30 peaks
+            type bigNarrowPeak
+            color 255,0,255
+            parent peaks
+            priority 61.0
+            visibility full
+            subGroups conditions=H3K9acstage30 view=peaks
+    
+            track H3K9acstage8pk
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H3K9acstage8pk.bigNarrowPeak
+            shortLabel H3K9ac_stage8 pk
+            longLabel H3K9ac_stage8 peaks
+            type bigNarrowPeak
+            color 255,0,255
+            parent peaks
+            priority 63.0
+            visibility full
+            subGroups conditions=H3K9acstage8 view=peaks
+    
+            track H3K9acstage9pk
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H3K9acstage9pk.bigNarrowPeak
+            shortLabel H3K9ac_stage9 pk
+            longLabel H3K9ac_stage9 peaks
+            type bigNarrowPeak
+            color 255,0,255
+            parent peaks
+            priority 65.0
+            visibility full
+            subGroups conditions=H3K9acstage9 view=peaks
+    
+            track H3K9me2stage105pk
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H3K9me2stage105pk.bigNarrowPeak
+            shortLabel H3K9me2stag105 pk
+            longLabel H3K9me2_stage10.5 peaks
+            type bigNarrowPeak
+            color 0,206,209
+            parent peaks
+            priority 67.0
+            visibility full
+            subGroups conditions=H3K9me2stage105 view=peaks
+    
+            track H3K9me2stage12pk
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H3K9me2stage12pk.bigNarrowPeak
+            shortLabel H3K9me2stage12 pk
+            longLabel H3K9me2_stage12 peaks
+            type bigNarrowPeak
+            color 0,206,209
+            parent peaks
+            priority 69.0
+            visibility full
+            subGroups conditions=H3K9me2stage12 view=peaks
+    
+            track H3K9me2stage16pk
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H3K9me2stage16pk.bigNarrowPeak
+            shortLabel H3K9me2stage16 pk
+            longLabel H3K9me2_stage16 peaks
+            type bigNarrowPeak
+            color 0,206,209
+            parent peaks
+            priority 71.0
+            visibility full
+            subGroups conditions=H3K9me2stage16 view=peaks
+    
+            track H3K9me2stage30pk
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H3K9me2stage30pk.bigNarrowPeak
+            shortLabel H3K9me2stage30 pk
+            longLabel H3K9me2_stage30 peaks
+            type bigNarrowPeak
+            color 0,206,209
+            parent peaks
+            priority 73.0
+            visibility full
+            subGroups conditions=H3K9me2stage30 view=peaks
+    
+            track H3K9me2stage9pk
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H3K9me2stage9pk.bigNarrowPeak
+            shortLabel H3K9me2_stage9 pk
+            longLabel H3K9me2_stage9 peaks
+            type bigNarrowPeak
+            color 0,206,209
+            parent peaks
+            priority 75.0
+            visibility full
+            subGroups conditions=H3K9me2stage9 view=peaks
+    
+            track H3K9me3stage105pk
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H3K9me3stage105pk.bigNarrowPeak
+            shortLabel H3K9me3stag105 pk
+            longLabel H3K9me3_stage10.5 peaks
+            type bigNarrowPeak
+            color 138,43,226
+            parent peaks
+            priority 77.0
+            visibility full
+            subGroups conditions=H3K9me3stage105 view=peaks
+    
+            track H3K9me3stage12pk
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H3K9me3stage12pk.bigNarrowPeak
+            shortLabel H3K9me3stage12 pk
+            longLabel H3K9me3_stage12 peaks
+            type bigNarrowPeak
+            color 138,43,226
+            parent peaks
+            priority 79.0
+            visibility full
+            subGroups conditions=H3K9me3stage12 view=peaks
+    
+            track H3K9me3stage16pk
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H3K9me3stage16pk.bigNarrowPeak
+            shortLabel H3K9me3stage16 pk
+            longLabel H3K9me3_stage16 peaks
+            type bigNarrowPeak
+            color 138,43,226
+            parent peaks
+            priority 81.0
+            visibility full
+            subGroups conditions=H3K9me3stage16 view=peaks
+    
+            track H3K9me3stage30pk
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H3K9me3stage30pk.bigNarrowPeak
+            shortLabel H3K9me3stage30 pk
+            longLabel H3K9me3_stage30 peaks
+            type bigNarrowPeak
+            color 138,43,226
+            parent peaks
+            priority 83.0
+            visibility full
+            subGroups conditions=H3K9me3stage30 view=peaks
+    
+            track H3K9me3stage9pk
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H3K9me3stage9pk.bigNarrowPeak
+            shortLabel H3K9me3_stage9 pk
+            longLabel H3K9me3_stage9 peaks
+            type bigNarrowPeak
+            color 138,43,226
+            parent peaks
+            priority 85.0
+            visibility full
+            subGroups conditions=H3K9me3stage9 view=peaks
+    
+            track H4K20me3stage105pk
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H4K20me3stage105pk.bigNarrowPeak
+            shortLabel H4K20me3stg105 pk
+            longLabel H4K20me3_stage10.5 peaks
+            type bigNarrowPeak
+            color 105,105,105
+            parent peaks
+            priority 87.0
+            visibility full
+            subGroups conditions=H4K20me3stage105 view=peaks
+    
+            track H4K20me3stage12pk
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H4K20me3stage12pk.bigNarrowPeak
+            shortLabel H4K20me3stag12 pk
+            longLabel H4K20me3_stage12 peaks
+            type bigNarrowPeak
+            color 105,105,105
+            parent peaks
+            priority 89.0
+            visibility full
+            subGroups conditions=H4K20me3stage12 view=peaks
+    
+            track H4K20me3stage16pk
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H4K20me3stage16pk.bigNarrowPeak
+            shortLabel H4K20me3stag16 pk
+            longLabel H4K20me3_stage16 peaks
+            type bigNarrowPeak
+            color 105,105,105
+            parent peaks
+            priority 91.0
+            visibility full
+            subGroups conditions=H4K20me3stage16 view=peaks
+    
+            track H4K20me3stage30pk
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H4K20me3stage30pk.bigNarrowPeak
+            shortLabel H4K20me3stag30 pk
+            longLabel H4K20me3_stage30 peaks
+            type bigNarrowPeak
+            color 105,105,105
+            parent peaks
+            priority 93.0
+            visibility full
+            subGroups conditions=H4K20me3stage30 view=peaks
+    
+            track H4K20me3stage9pk
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H4K20me3stage9pk.bigNarrowPeak
+            shortLabel H4K20me3stage9 pk
+            longLabel H4K20me3_stage9 peaks
+            type bigNarrowPeak
+            color 105,105,105
+            parent peaks
+            priority 95.0
+            visibility full
+            subGroups conditions=H4K20me3stage9 view=peaks
+    
+            track MethylCseqxtst105pk
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/MethylCseqxtst105pk.bigNarrowPeak
+            shortLabel MthylCsxtst105 pk
+            longLabel MethylC-seq_xt_st10.5 peaks
+            type bigNarrowPeak
+            color 0,0,0
+            parent peaks
+            priority 97.0
+            visibility full
+            subGroups conditions=MethylCseqxtst105 view=peaks
+    
+            track MethylCseqxtst9pk
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/MethylCseqxtst9pk.bigNarrowPeak
+            shortLabel MethylCsqxtst9 pk
+            longLabel MethylC-seq_xt_st9 peaks
+            type bigNarrowPeak
+            color 0,0,0
+            parent peaks
+            priority 99.0
+            visibility full
+            subGroups conditions=MethylCseqxtst9 view=peaks
+    
+            track p300stage105pk
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/p300stage105pk.bigNarrowPeak
+            shortLabel p300_stage10.5 pk
+            longLabel p300_stage10.5 peaks
+            type bigNarrowPeak
+            color 218,165,32
+            parent peaks
+            priority 101.0
+            visibility full
+            subGroups conditions=p300stage105 view=peaks
+    
+            track p300stage12pk
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/p300stage12pk.bigNarrowPeak
+            shortLabel p300_stage12 pk
+            longLabel p300_stage12 peaks
+            type bigNarrowPeak
+            color 218,165,32
+            parent peaks
+            priority 103.0
+            visibility full
+            subGroups conditions=p300stage12 view=peaks
+    
+            track p300stage16pk
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/p300stage16pk.bigNarrowPeak
+            shortLabel p300_stage16 pk
+            longLabel p300_stage16 peaks
+            type bigNarrowPeak
+            color 218,165,32
+            parent peaks
+            priority 105.0
+            visibility full
+            subGroups conditions=p300stage16 view=peaks
+    
+            track p300stage30pk
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/p300stage30pk.bigNarrowPeak
+            shortLabel p300_stage30 pk
+            longLabel p300_stage30 peaks
+            type bigNarrowPeak
+            color 218,165,32
+            parent peaks
+            priority 107.0
+            visibility full
+            subGroups conditions=p300stage30 view=peaks
+    
+            track p300stage9pk
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/p300stage9pk.bigNarrowPeak
+            shortLabel p300_stage9 pk
+            longLabel p300_stage9 peaks
+            type bigNarrowPeak
+            color 218,165,32
+            parent peaks
+            priority 109.0
+            visibility full
+            subGroups conditions=p300stage9 view=peaks
+    
+            track RNAPIIstage105pk
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/RNAPIIstage105pk.bigNarrowPeak
+            shortLabel RNAPIIstage105 pk
+            longLabel RNAPII_stage10.5 peaks
+            type bigNarrowPeak
+            color 128,0,0
+            parent peaks
+            priority 111.0
+            visibility full
+            subGroups conditions=RNAPIIstage105 view=peaks
+    
+            track RNAPIIstage12pk
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/RNAPIIstage12pk.bigNarrowPeak
+            shortLabel RNAPII_stage12 pk
+            longLabel RNAPII_stage12 peaks
+            type bigNarrowPeak
+            color 128,0,0
+            parent peaks
+            priority 113.0
+            visibility full
+            subGroups conditions=RNAPIIstage12 view=peaks
+    
+            track RNAPIIstage16pk
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/RNAPIIstage16pk.bigNarrowPeak
+            shortLabel RNAPII_stage16 pk
+            longLabel RNAPII_stage16 peaks
+            type bigNarrowPeak
+            color 128,0,0
+            parent peaks
+            priority 115.0
+            visibility full
+            subGroups conditions=RNAPIIstage16 view=peaks
+    
+            track RNAPIIstage30pk
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/RNAPIIstage30pk.bigNarrowPeak
+            shortLabel RNAPII_stage30 pk
+            longLabel RNAPII_stage30 peaks
+            type bigNarrowPeak
+            color 128,0,0
+            parent peaks
+            priority 117.0
+            visibility full
+            subGroups conditions=RNAPIIstage30 view=peaks
+    
+            track RNAPIIstage9pk
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/RNAPIIstage9pk.bigNarrowPeak
+            shortLabel RNAPII_stage9 pk
+            longLabel RNAPII_stage9 peaks
+            type bigNarrowPeak
+            color 128,0,0
+            parent peaks
+            priority 119.0
+            visibility full
+            subGroups conditions=RNAPIIstage9 view=peaks
+
+    track signal
+    shortLabel signal
+    longLabel signal
+    type bigWig
+    maxHeightPixels 100:50:8
+    parent ChIPseqsamples
+    view signal
+    visibility full
+    
+            track H3K27me3stage105bw
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H3K27me3stage105bw.bigWig
+            shortLabel H3K27me3stg105 bw
+            longLabel H3K27me3_stage10.5 bigWig
+            type bigWig
+            color 178,47,47
+            parent signal
+            priority 12.0
+            visibility full
+            subGroups conditions=H3K27me3stage105 view=signal
+    
+            track H3K27me3stage12bw
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H3K27me3stage12bw.bigWig
+            shortLabel H3K27me3stag12 bw
+            longLabel H3K27me3_stage12 bigWig
+            type bigWig
+            color 178,47,47
+            parent signal
+            priority 14.0
+            visibility full
+            subGroups conditions=H3K27me3stage12 view=signal
+    
+            track H3K27me3stage16bw
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H3K27me3stage16bw.bigWig
+            shortLabel H3K27me3stag16 bw
+            longLabel H3K27me3_stage16 bigWig
+            type bigWig
+            color 178,47,47
+            parent signal
+            priority 16.0
+            visibility full
+            subGroups conditions=H3K27me3stage16 view=signal
+    
+            track H3K27me3stage30bw
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H3K27me3stage30bw.bigWig
+            shortLabel H3K27me3stag30 bw
+            longLabel H3K27me3_stage30 bigWig
+            type bigWig
+            color 178,47,47
+            parent signal
+            priority 18.0
+            visibility full
+            subGroups conditions=H3K27me3stage30 view=signal
+    
+            track H3K27me3stage8bw
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H3K27me3stage8bw.bigWig
+            shortLabel H3K27me3stage8 bw
+            longLabel H3K27me3_stage8 bigWig
+            type bigWig
+            color 178,47,47
+            parent signal
+            priority 20.0
+            visibility full
+            subGroups conditions=H3K27me3stage8 view=signal
+    
+            track H3K27me3stage9bw
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H3K27me3stage9bw.bigWig
+            shortLabel H3K27me3stage9 bw
+            longLabel H3K27me3_stage9 bigWig
+            type bigWig
+            color 178,47,47
+            parent signal
+            priority 22.0
+            visibility full
+            subGroups conditions=H3K27me3stage9 view=signal
+    
+            track H3K36me3stage105bw
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H3K36me3stage105bw.bigWig
+            shortLabel H3K36me3stg105 bw
+            longLabel H3K36me3_stage10.5 bigWig
+            type bigWig
+            color 79,204,197
+            parent signal
+            priority 24.0
+            visibility full
+            subGroups conditions=H3K36me3stage105 view=signal
+    
+            track H3K36me3stage12bw
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H3K36me3stage12bw.bigWig
+            shortLabel H3K36me3stag12 bw
+            longLabel H3K36me3_stage12 bigWig
+            type bigWig
+            color 79,204,197
+            parent signal
+            priority 26.0
+            visibility full
+            subGroups conditions=H3K36me3stage12 view=signal
+    
+            track H3K36me3stage16bw
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H3K36me3stage16bw.bigWig
+            shortLabel H3K36me3stag16 bw
+            longLabel H3K36me3_stage16 bigWig
+            type bigWig
+            color 79,204,197
+            parent signal
+            priority 28.0
+            visibility full
+            subGroups conditions=H3K36me3stage16 view=signal
+    
+            track H3K36me3stage30bw
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H3K36me3stage30bw.bigWig
+            shortLabel H3K36me3stag30 bw
+            longLabel H3K36me3_stage30 bigWig
+            type bigWig
+            color 79,204,197
+            parent signal
+            priority 30.0
+            visibility full
+            subGroups conditions=H3K36me3stage30 view=signal
+    
+            track H3K36me3stage9bw
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H3K36me3stage9bw.bigWig
+            shortLabel H3K36me3stage9 bw
+            longLabel H3K36me3_stage9 bigWig
+            type bigWig
+            color 79,204,197
+            parent signal
+            priority 32.0
+            visibility full
+            subGroups conditions=H3K36me3stage9 view=signal
+    
+            track H3K4me1stage105bw
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H3K4me1stage105bw.bigWig
+            shortLabel H3K4me1stag105 bw
+            longLabel H3K4me1_stage10.5 bigWig
+            type bigWig
+            color 68,208,255
+            parent signal
+            priority 34.0
+            visibility full
+            subGroups conditions=H3K4me1stage105 view=signal
+    
+            track H3K4me1stage12bw
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H3K4me1stage12bw.bigWig
+            shortLabel H3K4me1stage12 bw
+            longLabel H3K4me1_stage12 bigWig
+            type bigWig
+            color 68,208,255
+            parent signal
+            priority 36.0
+            visibility full
+            subGroups conditions=H3K4me1stage12 view=signal
+    
+            track H3K4me1stage16bw
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H3K4me1stage16bw.bigWig
+            shortLabel H3K4me1stage16 bw
+            longLabel H3K4me1_stage16 bigWig
+            type bigWig
+            color 68,208,255
+            parent signal
+            priority 38.0
+            visibility full
+            subGroups conditions=H3K4me1stage16 view=signal
+    
+            track H3K4me1stage30bw
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H3K4me1stage30bw.bigWig
+            shortLabel H3K4me1stage30 bw
+            longLabel H3K4me1_stage30 bigWig
+            type bigWig
+            color 68,208,255
+            parent signal
+            priority 40.0
+            visibility full
+            subGroups conditions=H3K4me1stage30 view=signal
+    
+            track H3K4me1stage9bw
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H3K4me1stage9bw.bigWig
+            shortLabel H3K4me1_stage9 bw
+            longLabel H3K4me1_stage9 bigWig
+            type bigWig
+            color 68,208,255
+            parent signal
+            priority 42.0
+            visibility full
+            subGroups conditions=H3K4me1stage9 view=signal
+    
+            track H3K4me3stage105bw
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H3K4me3stage105bw.bigWig
+            shortLabel H3K4me3stag105 bw
+            longLabel H3K4me3_stage10.5 bigWig
+            type bigWig
+            color 45,170,45
+            parent signal
+            priority 44.0
+            visibility full
+            subGroups conditions=H3K4me3stage105 view=signal
+    
+            track H3K4me3stage12bw
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H3K4me3stage12bw.bigWig
+            shortLabel H3K4me3stage12 bw
+            longLabel H3K4me3_stage12 bigWig
+            type bigWig
+            color 45,170,45
+            parent signal
+            priority 46.0
+            visibility full
+            subGroups conditions=H3K4me3stage12 view=signal
+    
+            track H3K4me3stage16bw
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H3K4me3stage16bw.bigWig
+            shortLabel H3K4me3stage16 bw
+            longLabel H3K4me3_stage16 bigWig
+            type bigWig
+            color 45,170,45
+            parent signal
+            priority 48.0
+            visibility full
+            subGroups conditions=H3K4me3stage16 view=signal
+    
+            track H3K4me3stage30bw
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H3K4me3stage30bw.bigWig
+            shortLabel H3K4me3stage30 bw
+            longLabel H3K4me3_stage30 bigWig
+            type bigWig
+            color 45,170,45
+            parent signal
+            priority 50.0
+            visibility full
+            subGroups conditions=H3K4me3stage30 view=signal
+    
+            track H3K4me3stage8bw
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H3K4me3stage8bw.bigWig
+            shortLabel H3K4me3_stage8 bw
+            longLabel H3K4me3_stage8 bigWig
+            type bigWig
+            color 45,170,45
+            parent signal
+            priority 52.0
+            visibility full
+            subGroups conditions=H3K4me3stage8 view=signal
+    
+            track H3K4me3stage9bw
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H3K4me3stage9bw.bigWig
+            shortLabel H3K4me3_stage9 bw
+            longLabel H3K4me3_stage9 bigWig
+            type bigWig
+            color 45,170,45
+            parent signal
+            priority 54.0
+            visibility full
+            subGroups conditions=H3K4me3stage9 view=signal
+    
+            track H3K9acstage105bw
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H3K9acstage105bw.bigWig
+            shortLabel H3K9acstage105 bw
+            longLabel H3K9ac_stage10.5 bigWig
+            type bigWig
+            color 255,68,255
+            parent signal
+            priority 56.0
+            visibility full
+            subGroups conditions=H3K9acstage105 view=signal
+    
+            track H3K9acstage12bw
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H3K9acstage12bw.bigWig
+            shortLabel H3K9ac_stage12 bw
+            longLabel H3K9ac_stage12 bigWig
+            type bigWig
+            color 255,68,255
+            parent signal
+            priority 58.0
+            visibility full
+            subGroups conditions=H3K9acstage12 view=signal
+    
+            track H3K9acstage16bw
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H3K9acstage16bw.bigWig
+            shortLabel H3K9ac_stage16 bw
+            longLabel H3K9ac_stage16 bigWig
+            type bigWig
+            color 255,68,255
+            parent signal
+            priority 60.0
+            visibility full
+            subGroups conditions=H3K9acstage16 view=signal
+    
+            track H3K9acstage30bw
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H3K9acstage30bw.bigWig
+            shortLabel H3K9ac_stage30 bw
+            longLabel H3K9ac_stage30 bigWig
+            type bigWig
+            color 255,68,255
+            parent signal
+            priority 62.0
+            visibility full
+            subGroups conditions=H3K9acstage30 view=signal
+    
+            track H3K9acstage8bw
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H3K9acstage8bw.bigWig
+            shortLabel H3K9ac_stage8 bw
+            longLabel H3K9ac_stage8 bigWig
+            type bigWig
+            color 255,68,255
+            parent signal
+            priority 64.0
+            visibility full
+            subGroups conditions=H3K9acstage8 view=signal
+    
+            track H3K9acstage9bw
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H3K9acstage9bw.bigWig
+            shortLabel H3K9ac_stage9 bw
+            longLabel H3K9ac_stage9 bigWig
+            type bigWig
+            color 255,68,255
+            parent signal
+            priority 66.0
+            visibility full
+            subGroups conditions=H3K9acstage9 view=signal
+    
+            track H3K9me2stage105bw
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H3K9me2stage105bw.bigWig
+            shortLabel H3K9me2stag105 bw
+            longLabel H3K9me2_stage10.5 bigWig
+            type bigWig
+            color 60,222,224
+            parent signal
+            priority 68.0
+            visibility full
+            subGroups conditions=H3K9me2stage105 view=signal
+    
+            track H3K9me2stage12bw
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H3K9me2stage12bw.bigWig
+            shortLabel H3K9me2stage12 bw
+            longLabel H3K9me2_stage12 bigWig
+            type bigWig
+            color 60,222,224
+            parent signal
+            priority 70.0
+            visibility full
+            subGroups conditions=H3K9me2stage12 view=signal
+    
+            track H3K9me2stage16bw
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H3K9me2stage16bw.bigWig
+            shortLabel H3K9me2stage16 bw
+            longLabel H3K9me2_stage16 bigWig
+            type bigWig
+            color 60,222,224
+            parent signal
+            priority 72.0
+            visibility full
+            subGroups conditions=H3K9me2stage16 view=signal
+    
+            track H3K9me2stage30bw
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H3K9me2stage30bw.bigWig
+            shortLabel H3K9me2stage30 bw
+            longLabel H3K9me2_stage30 bigWig
+            type bigWig
+            color 60,222,224
+            parent signal
+            priority 74.0
+            visibility full
+            subGroups conditions=H3K9me2stage30 view=signal
+    
+            track H3K9me2stage9bw
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H3K9me2stage9bw.bigWig
+            shortLabel H3K9me2_stage9 bw
+            longLabel H3K9me2_stage9 bigWig
+            type bigWig
+            color 60,222,224
+            parent signal
+            priority 76.0
+            visibility full
+            subGroups conditions=H3K9me2stage9 view=signal
+    
+            track H3K9me3stage105bw
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H3K9me3stage105bw.bigWig
+            shortLabel H3K9me3stag105 bw
+            longLabel H3K9me3_stage10.5 bigWig
+            type bigWig
+            color 167,93,236
+            parent signal
+            priority 78.0
+            visibility full
+            subGroups conditions=H3K9me3stage105 view=signal
+    
+            track H3K9me3stage12bw
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H3K9me3stage12bw.bigWig
+            shortLabel H3K9me3stage12 bw
+            longLabel H3K9me3_stage12 bigWig
+            type bigWig
+            color 167,93,236
+            parent signal
+            priority 80.0
+            visibility full
+            subGroups conditions=H3K9me3stage12 view=signal
+    
+            track H3K9me3stage16bw
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H3K9me3stage16bw.bigWig
+            shortLabel H3K9me3stage16 bw
+            longLabel H3K9me3_stage16 bigWig
+            type bigWig
+            color 167,93,236
+            parent signal
+            priority 82.0
+            visibility full
+            subGroups conditions=H3K9me3stage16 view=signal
+    
+            track H3K9me3stage30bw
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H3K9me3stage30bw.bigWig
+            shortLabel H3K9me3stage30 bw
+            longLabel H3K9me3_stage30 bigWig
+            type bigWig
+            color 167,93,236
+            parent signal
+            priority 84.0
+            visibility full
+            subGroups conditions=H3K9me3stage30 view=signal
+    
+            track H3K9me3stage9bw
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H3K9me3stage9bw.bigWig
+            shortLabel H3K9me3_stage9 bw
+            longLabel H3K9me3_stage9 bigWig
+            type bigWig
+            color 167,93,236
+            parent signal
+            priority 86.0
+            visibility full
+            subGroups conditions=H3K9me3stage9 view=signal
+    
+            track H4K20me3stage105bw
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H4K20me3stage105bw.bigWig
+            shortLabel H4K20me3stg105 bw
+            longLabel H4K20me3_stage10.5 bigWig
+            type bigWig
+            color 155,145,145
+            parent signal
+            priority 88.0
+            visibility full
+            subGroups conditions=H4K20me3stage105 view=signal
+    
+            track H4K20me3stage12bw
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H4K20me3stage12bw.bigWig
+            shortLabel H4K20me3stag12 bw
+            longLabel H4K20me3_stage12 bigWig
+            type bigWig
+            color 155,145,145
+            parent signal
+            priority 90.0
+            visibility full
+            subGroups conditions=H4K20me3stage12 view=signal
+    
+            track H4K20me3stage16bw
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H4K20me3stage16bw.bigWig
+            shortLabel H4K20me3stag16 bw
+            longLabel H4K20me3_stage16 bigWig
+            type bigWig
+            color 155,145,145
+            parent signal
+            priority 92.0
+            visibility full
+            subGroups conditions=H4K20me3stage16 view=signal
+    
+            track H4K20me3stage30bw
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H4K20me3stage30bw.bigWig
+            shortLabel H4K20me3stag30 bw
+            longLabel H4K20me3_stage30 bigWig
+            type bigWig
+            color 155,145,145
+            parent signal
+            priority 94.0
+            visibility full
+            subGroups conditions=H4K20me3stage30 view=signal
+    
+            track H4K20me3stage9bw
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/H4K20me3stage9bw.bigWig
+            shortLabel H4K20me3stage9 bw
+            longLabel H4K20me3_stage9 bigWig
+            type bigWig
+            color 155,145,145
+            parent signal
+            priority 96.0
+            visibility full
+            subGroups conditions=H4K20me3stage9 view=signal
+    
+            track MethylCseqxtst105bw
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/MethylCseqxtst105bw.bigWig
+            shortLabel MthylCsxtst105 bw
+            longLabel MethylC-seq_xt_st10.5 bigWig
+            type bigWig
+            color 85,79,79
+            parent signal
+            priority 98.0
+            visibility full
+            subGroups conditions=MethylCseqxtst105 view=signal
+    
+            track MethylCseqxtst9bw
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/MethylCseqxtst9bw.bigWig
+            shortLabel MethylCsqxtst9 bw
+            longLabel MethylC-seq_xt_st9 bigWig
+            type bigWig
+            color 85,79,79
+            parent signal
+            priority 100.0
+            visibility full
+            subGroups conditions=MethylCseqxtst9 view=signal
+    
+            track p300stage105bw
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/p300stage105bw.bigWig
+            shortLabel p300_stage10.5 bw
+            longLabel p300_stage10.5 bigWig
+            type bigWig
+            color 230,189,84
+            parent signal
+            priority 102.0
+            visibility full
+            subGroups conditions=p300stage105 view=signal
+    
+            track p300stage12bw
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/p300stage12bw.bigWig
+            shortLabel p300_stage12 bw
+            longLabel p300_stage12 bigWig
+            type bigWig
+            color 230,189,84
+            parent signal
+            priority 104.0
+            visibility full
+            subGroups conditions=p300stage12 view=signal
+    
+            track p300stage16bw
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/p300stage16bw.bigWig
+            shortLabel p300_stage16 bw
+            longLabel p300_stage16 bigWig
+            type bigWig
+            color 230,189,84
+            parent signal
+            priority 106.0
+            visibility full
+            subGroups conditions=p300stage16 view=signal
+    
+            track p300stage30bw
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/p300stage30bw.bigWig
+            shortLabel p300_stage30 bw
+            longLabel p300_stage30 bigWig
+            type bigWig
+            color 230,189,84
+            parent signal
+            priority 108.0
+            visibility full
+            subGroups conditions=p300stage30 view=signal
+    
+            track p300stage9bw
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/p300stage9bw.bigWig
+            shortLabel p300_stage9 bw
+            longLabel p300_stage9 bigWig
+            type bigWig
+            color 230,189,84
+            parent signal
+            priority 110.0
+            visibility full
+            subGroups conditions=p300stage9 view=signal
+    
+            track RNAPIIstage105bw
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/RNAPIIstage105bw.bigWig
+            shortLabel RNAPIIstage105 bw
+            longLabel RNAPII_stage10.5 bigWig
+            type bigWig
+            color 170,45,45
+            parent signal
+            priority 112.0
+            visibility full
+            subGroups conditions=RNAPIIstage105 view=signal
+    
+            track RNAPIIstage12bw
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/RNAPIIstage12bw.bigWig
+            shortLabel RNAPII_stage12 bw
+            longLabel RNAPII_stage12 bigWig
+            type bigWig
+            color 170,45,45
+            parent signal
+            priority 114.0
+            visibility full
+            subGroups conditions=RNAPIIstage12 view=signal
+    
+            track RNAPIIstage16bw
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/RNAPIIstage16bw.bigWig
+            shortLabel RNAPII_stage16 bw
+            longLabel RNAPII_stage16 bigWig
+            type bigWig
+            color 170,45,45
+            parent signal
+            priority 116.0
+            visibility full
+            subGroups conditions=RNAPIIstage16 view=signal
+    
+            track RNAPIIstage30bw
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/RNAPIIstage30bw.bigWig
+            shortLabel RNAPII_stage30 bw
+            longLabel RNAPII_stage30 bigWig
+            type bigWig
+            color 170,45,45
+            parent signal
+            priority 118.0
+            visibility full
+            subGroups conditions=RNAPIIstage30 view=signal
+    
+            track RNAPIIstage9bw
+            bigDataUrl https://mbdata.science.ru.nl/track_data/Xentr10_0/bw/RNAPIIstage9bw.bigWig
+            shortLabel RNAPII_stage9 bw
+            longLabel RNAPII_stage9 bigWig
+            type bigWig
+            color 170,45,45
+            parent signal
+            priority 120.0
+            visibility full
+            subGroups conditions=RNAPIIstage9 view=signal

@@ -1,0 +1,16 @@
+track gene_annotation
+shortLabel Genes
+longLabel Gene Annotation
+superTrack on show
+priority 1
+  
+  track XENTR_10.0_Xenbase
+  longLabel XENTR_10.0_Xenbase (gff3.to.gtf_v0.11)
+  shortLabel XENTR_10.0_Xenbase
+  parent gene_annotation
+  type bigBed 12
+  bigDataUrl http://trackhub.science.ru.nl/hubs/veenstralab/resources/genomes/xenopus/XENTR_10.0/annotation/XENTR_10.0_Xenbase.bb
+  visibility pack
+  priority 1.1
+  bedNameLabel name
+  labelOnFeature off
