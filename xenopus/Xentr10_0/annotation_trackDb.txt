@@ -9,7 +9,7 @@ priority 1
   shortLabel XENTR_10.0_Xenbase
   parent gene_annotation
   type bigBed 12
-  bigDataUrl http://trackhub.science.ru.nl/hubs/veenstralab/resources/genomes/xenopus/XENTR_10.0/annotation/XENTR_10.0_Xenbase.bb
+  bigDataUrl https://trackhub.science.ru.nl/hubs/veenstralab/resources/genomes/xenopus/XENTR_10.0/annotation/XENTR_10.0_Xenbase.bb
   visibility pack
   priority 1.1
   bedNameLabel name
