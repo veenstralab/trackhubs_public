@@ -10,9 +10,9 @@ visibility full
   shortLabel Xlaevisv1_8
   parent gene_annotation
   type bigBed 12
-  bigDataUrl http://trackhub.science.ru.nl/hubs/xenopus/Xlav91/annotation/Xlaevisv1.8.Named.primaryTrs.corr.bb
+  bigDataUrl https://trackhub.science.ru.nl/hubs/xenopus/Xlav91/annotation/Xlaevisv1.8.Named.primaryTrs.corr.bb
   searchIndex name
-  searchTrix http://trackhub.science.ru.nl/hubs/xenopus/Xlav91/annotation/Xlaevisv1.8.Named.primaryTrs.corr.ix
+  searchTrix https://trackhub.science.ru.nl/hubs/xenopus/Xlav91/annotation/Xlaevisv1.8.Named.primaryTrs.corr.ix
   visibility pack
   bedNameLabel name
   labelOnFeature on
