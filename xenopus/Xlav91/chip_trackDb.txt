@@ -8,7 +8,7 @@ dragAndDrop on
 type bigWig
   
   track H3K4me3_stage10.5_1
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xlaevis/Xlav91/H3K4me3_10_5_xl_replicate1.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xlaevis/Xlav91/H3K4me3_10_5_xl_replicate1.bw
   longLabel H3K4me3_10_5_xl_replicate1
   maxHeightPixels 128:30:16
   parent ChIP-seq
@@ -20,7 +20,7 @@ type bigWig
   visibility full
 
   track H3K4me3_stage10.5_2
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xlaevis/Xlav91/H3K4me3_10_5_xl_replicate2.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xlaevis/Xlav91/H3K4me3_10_5_xl_replicate2.bw
   longLabel H3K4me3_10_5_xl_replicate2
   maxHeightPixels 128:30:16
   parent ChIP-seq
@@ -32,7 +32,7 @@ type bigWig
   visibility full
   
   track Pol2Ab_Diagenode_10_5_xl_1
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xlaevis/Xlav91/Pol2Ab_Diagenode_10_5_xl_replicate1.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xlaevis/Xlav91/Pol2Ab_Diagenode_10_5_xl_replicate1.bw
   longLabel Pol2Ab_Diagenode_10_5_xl_replicate1
   maxHeightPixels 128:30:16
   parent ChIP-seq
@@ -44,7 +44,7 @@ type bigWig
   visibility full
 
   track Pol2Ab_Diagenode_10_5_xl_2
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xlaevis/Xlav91/Pol2Ab_Diagenode_10_5_xl_replicate2.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xlaevis/Xlav91/Pol2Ab_Diagenode_10_5_xl_replicate2.bw
   longLabel Pol2Ab_Diagenode_10_5_xl_replicate2
   maxHeightPixels 128:30:16
   parent ChIP-seq
@@ -56,7 +56,7 @@ type bigWig
   visibility full
   
   track H3K36me3_stage10.5_1
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xlaevis/Xlav91/H3K36me3_10_5_xl_replicate1.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xlaevis/Xlav91/H3K36me3_10_5_xl_replicate1.bw
   longLabel H3K36me3_10_5_xl_replicate1
   maxHeightPixels 128:30:16
   parent ChIP-seq
@@ -68,7 +68,7 @@ type bigWig
   visibility full
   
   track H3K36me3_stage10.5_2
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xlaevis/Xlav91/H3K36me3_10_5_xl_replicate2.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xlaevis/Xlav91/H3K36me3_10_5_xl_replicate2.bw
   longLabel H3K36me3_10_5_xl_replicate1
   maxHeightPixels 128:30:16
   parent ChIP-seq
@@ -80,7 +80,7 @@ type bigWig
   visibility full
   
   track p300_stage10.5_1
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xlaevis/Xlav91/p300_10_5_xl_replicate1.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xlaevis/Xlav91/p300_10_5_xl_replicate1.bw
   longLabel p300_10_5_xl_replicate1
   maxHeightPixels 128:30:16
   parent ChIP-seq
@@ -92,7 +92,7 @@ type bigWig
   visibility full
 
   track p300_stage10.5_2 
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xlaevis/Xlav91/p300_10_5_xl_replicate2.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xlaevis/Xlav91/p300_10_5_xl_replicate2.bw
   longLabel p300_10_5_xl_replicate2
   maxHeightPixels 128:30:16
   parent ChIP-seq
@@ -104,7 +104,7 @@ type bigWig
   visibility full
 
   track H3K4me1_stage10.5_1
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xlaevis/Xlav91/H3K4me1_10_5_xl_replicate1.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xlaevis/Xlav91/H3K4me1_10_5_xl_replicate1.bw
   longLabel H3K4me1_10_5_xl_replicate1
   maxHeightPixels 128:30:16
   parent ChIP-seq
@@ -116,7 +116,7 @@ type bigWig
   visibility full
 
   track H3K4me1_stage10.5_2
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xlaevis/Xlav91/H3K4me1_10_5_xl_replicate2.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xlaevis/Xlav91/H3K4me1_10_5_xl_replicate2.bw
   longLabel H3K4me1_10_5_xl_replicate2
   maxHeightPixels 128:30:16
   parent ChIP-seq
@@ -128,7 +128,7 @@ type bigWig
   visibility full
   
   track Input_stage10.5_1
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xlaevis/Xlav91/Input_10_5_xl_replicate1.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xlaevis/Xlav91/Input_10_5_xl_replicate1.bw
   longLabel Input_10_5_xl_replicate1
   maxHeightPixels 128:30:16
   parent ChIP-seq
