@@ -24,7 +24,7 @@ priority 2
   viewLimits 0:3.5
   autoScale off
   color 102,204,255
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K4me1.stage09.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K4me1.stage09.xt8_0.bw
   parent ChIP-seq_8_0 on
   subGroups HM=H3K4ME1 ST=STAGE09 REP=NOREPEATS
 
@@ -38,7 +38,7 @@ priority 2
   viewLimits 0:3.5
   autoScale off
   color 41,184,255
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K4me1.stage10_5.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K4me1.stage10_5.xt8_0.bw
   parent ChIP-seq_8_0 on
   subGroups HM=H3K4ME1 ST=STAGE10_5 REP=NOREPEATS
   
@@ -52,7 +52,7 @@ priority 2
   viewLimits 0:3.5
   autoScale off
   color 0,159,238
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K4me1.stage12_5.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K4me1.stage12_5.xt8_0.bw
   parent ChIP-seq_8_0 on
   subGroups HM=H3K4ME1 ST=STAGE12_5 REP=NOREPEATS
 
@@ -66,7 +66,7 @@ priority 2
   viewLimits 0:3.5
   autoScale off
   color 0,136,204
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K4me1.stage16.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K4me1.stage16.xt8_0.bw
   parent ChIP-seq_8_0 on
   subGroups HM=H3K4ME1 ST=STAGE16 REP=NOREPEATS
   selected no
@@ -81,7 +81,7 @@ priority 2
   viewLimits 0:3.5
   autoScale off
   color 0,105,158
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K4me1.stage30.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K4me1.stage30.xt8_0.bw
   parent ChIP-seq_8_0 on
   subGroups HM=H3K4ME1 ST=STAGE30 REP=NOREPEATS
 
@@ -95,7 +95,7 @@ priority 2
   viewLimits 0:3.5
   autoScale off
   color 102,204,255
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K4me1.stage09.Rep.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K4me1.stage09.Rep.xt8_0.bw
   parent ChIP-seq_8_0 off
   subGroups HM=H3K4ME1 ST=STAGE09 REP=REPEATS
   
@@ -109,7 +109,7 @@ priority 2
   viewLimits 0:3.5
   autoScale off
   color 41,184,255
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K4me1.stage10_5.Rep.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K4me1.stage10_5.Rep.xt8_0.bw
   parent ChIP-seq_8_0 off
   subGroups HM=H3K4ME1 ST=STAGE10_5 REP=REPEATS
   
@@ -123,7 +123,7 @@ priority 2
   viewLimits 0:3.5
   autoScale off
   color 0,159,238
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K4me1.stage12_5.Rep.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K4me1.stage12_5.Rep.xt8_0.bw
   parent ChIP-seq_8_0 off
   subGroups HM=H3K4ME1 ST=STAGE12_5 REP=REPEATS
 
@@ -137,7 +137,7 @@ priority 2
   viewLimits 0:3.5
   autoScale off
   color 0,136,204
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K4me1.stage16.Rep.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K4me1.stage16.Rep.xt8_0.bw
   parent ChIP-seq_8_0 off
   subGroups HM=H3K4ME1 ST=STAGE16 REP=REPEATS
   
@@ -151,7 +151,7 @@ priority 2
   viewLimits 0:3.5
   autoScale off
   color 0,105,158
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K4me1.stage30.Rep.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K4me1.stage30.Rep.xt8_0.bw
   parent ChIP-seq_8_0 off
   subGroups HM=H3K4ME1 ST=STAGE30 REP=REPEATS
 
@@ -166,7 +166,7 @@ priority 2
   viewLimits 0:12
   autoScale off
   color 170,219,171
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K4me3.stage09.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K4me3.stage09.xt8_0.bw
   parent ChIP-seq_8_0 on
   subGroups HM=H3K4ME3 ST=STAGE09 REP=NOREPEATS  
   
@@ -180,7 +180,7 @@ priority 2
   viewLimits 0:12
   autoScale off
   color 116,196,118
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K4me3.stage10_5.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K4me3.stage10_5.xt8_0.bw
   parent ChIP-seq_8_0 on
   subGroups HM=H3K4ME3 ST=STAGE10_5 REP=NOREPEATS  
   
@@ -194,7 +194,7 @@ priority 2
   viewLimits 0:12
   autoScale off
   color 73,189,103
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K4me3.stage12_5.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K4me3.stage12_5.xt8_0.bw
   parent ChIP-seq_8_0 on
   subGroups HM=H3K4ME3 ST=STAGE12_5 REP=NOREPEATS
 
@@ -208,7 +208,7 @@ priority 2
   viewLimits 0:12
   autoScale off
   color 65,171,93
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K4me3.stage16.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K4me3.stage16.xt8_0.bw
   parent ChIP-seq_8_0 on
   subGroups HM=H3K4ME3 ST=STAGE16 REP=NOREPEATS
 
@@ -222,7 +222,7 @@ priority 2
   viewLimits 0:12
   autoScale off
   color 35,139,69
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K4me3.stage30.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K4me3.stage30.xt8_0.bw
   parent ChIP-seq_8_0 on
   subGroups HM=H3K4ME3 ST=STAGE30 REP=NOREPEATS
 
@@ -236,7 +236,7 @@ priority 2
   viewLimits 0:12
   autoScale off
   color 170,219,171
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K4me3.stage09.Rep.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K4me3.stage09.Rep.xt8_0.bw
   parent ChIP-seq_8_0 off
   subGroups HM=H3K4ME3 ST=STAGE09 REP=REPEATS
   
@@ -250,7 +250,7 @@ priority 2
   viewLimits 0:12
   autoScale off
   color 116,196,118
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K4me3.stage10_5.Rep.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K4me3.stage10_5.Rep.xt8_0.bw
   parent ChIP-seq_8_0 off
   subGroups HM=H3K4ME3 ST=STAGE10_5 REP=REPEATS  
   
@@ -264,7 +264,7 @@ priority 2
   viewLimits 0:12
   autoScale off
   color 73,189,103
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K4me3.stage12_5.Rep.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K4me3.stage12_5.Rep.xt8_0.bw
   parent ChIP-seq_8_0 off
   subGroups HM=H3K4ME3 ST=STAGE12_5 REP=REPEATS  
   
@@ -278,7 +278,7 @@ priority 2
   viewLimits 0:12
   autoScale off
   color 65,171,93
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K4me3.stage16.Rep.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K4me3.stage16.Rep.xt8_0.bw
   parent ChIP-seq_8_0 off
   subGroups HM=H3K4ME3 ST=STAGE16 REP=REPEATS  
   
@@ -292,7 +292,7 @@ priority 2
   viewLimits 0:12
   autoScale off
   color 35,139,69
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K4me3.stage30.Rep.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K4me3.stage30.Rep.xt8_0.bw
   parent ChIP-seq_8_0 off
   subGroups HM=H3K4ME3 ST=STAGE30 REP=REPEATS  
 
@@ -307,7 +307,7 @@ priority 2
   viewLimits 0:6
   autoScale off
   color 254,188,255
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K9ac.stage09.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K9ac.stage09.xt8_0.bw
   parent ChIP-seq_8_0 on
   subGroups HM=H3K9AC ST=STAGE09 REP=NOREPEATS
   
@@ -321,7 +321,7 @@ priority 2
   viewLimits 0:6
   autoScale off
   color 253,111,255
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K9ac.stage10_5.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K9ac.stage10_5.xt8_0.bw
   parent ChIP-seq_8_0 on
   subGroups HM=H3K9AC ST=STAGE10_5 REP=NOREPEATS 
   
@@ -335,7 +335,7 @@ priority 2
   viewLimits 0:6
   autoScale off
   color 251,67,255
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K9ac.stage12_5.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K9ac.stage12_5.xt8_0.bw
   parent ChIP-seq_8_0 on
   subGroups HM=H3K9AC ST=STAGE12_5 REP=NOREPEATS
 
@@ -349,7 +349,7 @@ priority 2
   viewLimits 0:6
   autoScale off
   color 248,0,254
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K9ac.stage16.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K9ac.stage16.xt8_0.bw
   parent ChIP-seq_8_0 on
   subGroups HM=H3K9AC ST=STAGE16 REP=NOREPEATS
 
@@ -363,7 +363,7 @@ priority 2
   viewLimits 0:6
   autoScale off
   color 199,0,204
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K9ac.stage30.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K9ac.stage30.xt8_0.bw
   parent ChIP-seq_8_0 on
   subGroups HM=H3K9AC ST=STAGE30 REP=NOREPEATS  
   
@@ -377,7 +377,7 @@ priority 2
   viewLimits 0:6
   autoScale off
   color 254,188,255
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K9ac.stage09.Rep.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K9ac.stage09.Rep.xt8_0.bw
   parent ChIP-seq_8_0 off
   subGroups HM=H3K9AC ST=STAGE09 REP=REPEATS  
   
@@ -391,7 +391,7 @@ priority 2
   viewLimits 0:6
   autoScale off
   color 253,111,255
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K9ac.stage10_5.Rep.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K9ac.stage10_5.Rep.xt8_0.bw
   parent ChIP-seq_8_0 off
   subGroups HM=H3K9AC ST=STAGE10_5 REP=REPEATS 
 
@@ -405,7 +405,7 @@ priority 2
   viewLimits 0:6
   autoScale off
   color 251,67,255
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K9ac.stage12_5.Rep.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K9ac.stage12_5.Rep.xt8_0.bw
   parent ChIP-seq_8_0 off
   subGroups HM=H3K9AC ST=STAGE12_5 REP=REPEATS  
   
@@ -419,7 +419,7 @@ priority 2
   viewLimits 0:6
   autoScale off
   color 248,0,254
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K9ac.stage16.Rep.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K9ac.stage16.Rep.xt8_0.bw
   parent ChIP-seq_8_0 off
   subGroups HM=H3K9AC ST=STAGE16 REP=REPEATS
   
@@ -433,7 +433,7 @@ priority 2
   viewLimits 0:6
   autoScale off
   color 199,0,204
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K9ac.stage30.Rep.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K9ac.stage30.Rep.xt8_0.bw
   parent ChIP-seq_8_0 off
   subGroups HM=H3K9AC ST=STAGE30 REP=REPEATS  
 
@@ -448,7 +448,7 @@ priority 2
   viewLimits 0:5
   autoScale off
   color 130,250,213
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K36me3.stage09.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K36me3.stage09.xt8_0.bw
   parent ChIP-seq_8_0 on
   subGroups HM=H3K36ME3 ST=STAGE09 REP=NOREPEATS
   
@@ -462,7 +462,7 @@ priority 2
   viewLimits 0:5
   autoScale off
   color 59,247,189
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K36me3.stage10_5.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K36me3.stage10_5.xt8_0.bw
   parent ChIP-seq_8_0 on
   subGroups HM=H3K36ME3 ST=STAGE10_5 REP=NOREPEATS  
   
@@ -476,7 +476,7 @@ priority 2
   viewLimits 0:5
   autoScale off
   color 9,225,158
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K36me3.stage12_5.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K36me3.stage12_5.xt8_0.bw
   parent ChIP-seq_8_0 on
   subGroups HM=H3K36ME3 ST=STAGE12_5 REP=NOREPEATS  
   
@@ -490,7 +490,7 @@ priority 2
   viewLimits 0:5
   autoScale off
   color 7,181,127
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K36me3.stage16.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K36me3.stage16.xt8_0.bw
   parent ChIP-seq_8_0 on
   subGroups HM=H3K36ME3 ST=STAGE16 REP=NOREPEATS  
   
@@ -504,7 +504,7 @@ priority 2
   viewLimits 0:5
   autoScale off
   color 5,125,88
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K36me3.stage30.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K36me3.stage30.xt8_0.bw
   parent ChIP-seq_8_0 on
   subGroups HM=H3K36ME3 ST=STAGE30 REP=NOREPEATS  
 
@@ -518,7 +518,7 @@ priority 2
   viewLimits 0:5
   autoScale off
   color 130,250,213
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K36me3.stage09.Rep.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K36me3.stage09.Rep.xt8_0.bw
   parent ChIP-seq_8_0 off
   subGroups HM=H3K36ME3 ST=STAGE09 REP=REPEATS  
   
@@ -532,7 +532,7 @@ priority 2
   viewLimits 0:5
   autoScale off
   color 59,247,189
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K36me3.stage10_5.Rep.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K36me3.stage10_5.Rep.xt8_0.bw
   parent ChIP-seq_8_0 off
   subGroups HM=H3K36ME3 ST=STAGE10_5 REP=REPEATS
   
@@ -546,7 +546,7 @@ priority 2
   viewLimits 0:5
   autoScale off
   color 9,225,158
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K36me3.stage12_5.Rep.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K36me3.stage12_5.Rep.xt8_0.bw
   parent ChIP-seq_8_0 off
   subGroups HM=H3K36ME3 ST=STAGE12_5 REP=REPEATS  
   
@@ -560,7 +560,7 @@ priority 2
   viewLimits 0:5
   autoScale off
   color 7,181,127
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K36me3.stage16.Rep.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K36me3.stage16.Rep.xt8_0.bw
   parent ChIP-seq_8_0 off
   subGroups HM=H3K36ME3 ST=STAGE16 REP=REPEATS
   
@@ -574,7 +574,7 @@ priority 2
   viewLimits 0:5
   autoScale off
   color 5,125,88
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K36me3.stage30.Rep.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K36me3.stage30.Rep.xt8_0.bw
   parent ChIP-seq_8_0 off
   subGroups HM=H3K36ME3 ST=STAGE30 REP=REPEATS
 
@@ -589,7 +589,7 @@ priority 2
   viewLimits 0:3.5
   autoScale off
   color 109,188,209
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K9me2.stage09.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K9me2.stage09.xt8_0.bw
   parent ChIP-seq_8_0 off
   subGroups HM=H3K9ME2 ST=STAGE09 REP=NOREPEATS
   
@@ -603,7 +603,7 @@ priority 2
   viewLimits 0:3.5
   autoScale off
   color 68,169,196
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K9me2.stage10_5.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K9me2.stage10_5.xt8_0.bw
   parent ChIP-seq_8_0 off
   subGroups HM=H3K9ME2 ST=STAGE10_5 REP=NOREPEATS  
   
@@ -617,7 +617,7 @@ priority 2
   viewLimits 0:3.5
   autoScale off
   color 55,149,175
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K9me2.stage12_5.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K9me2.stage12_5.xt8_0.bw
   parent ChIP-seq_8_0 off
   subGroups HM=H3K9ME2 ST=STAGE12_5 REP=NOREPEATS
 
@@ -631,7 +631,7 @@ priority 2
   viewLimits 0:3.5
   autoScale off
   color 42,114,134
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K9me2.stage16.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K9me2.stage16.xt8_0.bw
   parent ChIP-seq_8_0 off
   subGroups HM=H3K9ME2 ST=STAGE16 REP=NOREPEATS
   
@@ -645,7 +645,7 @@ priority 2
   viewLimits 0:3.5
   autoScale off
   color 41,70,113
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K9me2.stage30.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K9me2.stage30.xt8_0.bw
   parent ChIP-seq_8_0 off
   subGroups HM=H3K9ME2 ST=STAGE30 REP=NOREPEATS
   
@@ -659,7 +659,7 @@ priority 2
   viewLimits 0:3.5
   autoScale off
   color 109,188,209
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K9me2.stage09.Rep.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K9me2.stage09.Rep.xt8_0.bw
   parent ChIP-seq_8_0 off
   subGroups HM=H3K9ME2 ST=STAGE09 REP=REPEATS 
   
@@ -673,7 +673,7 @@ priority 2
   viewLimits 0:3.5
   autoScale off
   color 68,169,196
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K9me2.stage10_5.Rep.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K9me2.stage10_5.Rep.xt8_0.bw
   parent ChIP-seq_8_0 off
   subGroups HM=H3K9ME2 ST=STAGE10_5 REP=REPEATS
   
@@ -687,7 +687,7 @@ priority 2
   viewLimits 0:3.5
   autoScale off
   color 55,149,175
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K9me2.stage12_5.Rep.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K9me2.stage12_5.Rep.xt8_0.bw
   parent ChIP-seq_8_0 off
   subGroups HM=H3K9ME2 ST=STAGE12_5 REP=REPEATS
 
@@ -701,7 +701,7 @@ priority 2
   viewLimits 0:3.5
   autoScale off
   color 42,114,134
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K9me2.stage16.Rep.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K9me2.stage16.Rep.xt8_0.bw
   parent ChIP-seq_8_0 off
   subGroups HM=H3K9ME2 ST=STAGE16 REP=REPEATS
 
@@ -715,7 +715,7 @@ priority 2
   viewLimits 0:3.5
   autoScale off
   color 41,70,113
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K9me2.stage30.Rep.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K9me2.stage30.Rep.xt8_0.bw
   parent ChIP-seq_8_0 off
   subGroups HM=H3K9ME2 ST=STAGE30 REP=REPEATS
 
@@ -730,7 +730,7 @@ priority 2
   viewLimits 0:3.5
   autoScale off
   color 190,151,241
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K9me3.stage09.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K9me3.stage09.xt8_0.bw
   parent ChIP-seq_8_0 off
   subGroups HM=H3K9ME3 ST=STAGE09 REP=NOREPEATS  
   
@@ -744,7 +744,7 @@ priority 2
   viewLimits 0:3.5
   autoScale off
   color 151,89,233
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K9me3.stage10_5.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K9me3.stage10_5.xt8_0.bw
   parent ChIP-seq_8_0 off
   subGroups HM=H3K9ME3 ST=STAGE10_5 REP=NOREPEATS
     
@@ -758,7 +758,7 @@ priority 2
   viewLimits 0:3.5
   autoScale off
   color 113,30,224
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K9me3.stage12_5.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K9me3.stage12_5.xt8_0.bw
   parent ChIP-seq_8_0 off
   subGroups HM=H3K9ME3 ST=STAGE12_5 REP=NOREPEATS
     
@@ -772,7 +772,7 @@ priority 2
   viewLimits 0:3.5
   autoScale off
   color 82,22,162
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K9me3.stage16.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K9me3.stage16.xt8_0.bw
   parent ChIP-seq_8_0 off
   subGroups HM=H3K9ME3 ST=STAGE16 REP=NOREPEATS    
     
@@ -786,7 +786,7 @@ priority 2
   viewLimits 0:3.5
   autoScale off
   color 60,16,118
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K9me3.stage30.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K9me3.stage30.xt8_0.bw
   parent ChIP-seq_8_0 off
   subGroups HM=H3K9ME3 ST=STAGE30 REP=NOREPEATS
 
@@ -800,7 +800,7 @@ priority 2
   viewLimits 0:3.5
   autoScale off
   color 190,151,241
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K9me3.stage09.Rep.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K9me3.stage09.Rep.xt8_0.bw
   parent ChIP-seq_8_0 off
   subGroups HM=H3K9ME3 ST=STAGE09 REP=REPEATS
   
@@ -814,7 +814,7 @@ priority 2
   viewLimits 0:3.5
   autoScale off
   color 151,89,233
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K9me3.stage10_5.Rep.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K9me3.stage10_5.Rep.xt8_0.bw
   parent ChIP-seq_8_0 off
   subGroups HM=H3K9ME3 ST=STAGE10_5 REP=REPEATS
  
@@ -828,7 +828,7 @@ priority 2
   viewLimits 0:3.5
   autoScale off
   color 113,30,224
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K9me3.stage12_5.Rep.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K9me3.stage12_5.Rep.xt8_0.bw
   parent ChIP-seq_8_0 off
   subGroups HM=H3K9ME3 ST=STAGE12_5 REP=REPEATS  
   
@@ -842,7 +842,7 @@ priority 2
   viewLimits 0:3.5
   autoScale off
   color 82,22,162
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K9me3.stage16.Rep.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K9me3.stage16.Rep.xt8_0.bw
   parent ChIP-seq_8_0 off
   subGroups HM=H3K9ME3 ST=STAGE16 REP=REPEATS
 
@@ -856,7 +856,7 @@ priority 2
   viewLimits 0:3.5
   autoScale off
   color 60,16,118
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K9me3.stage30.Rep.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K9me3.stage30.Rep.xt8_0.bw
   parent ChIP-seq_8_0 off
   subGroups HM=H3K9ME3 ST=STAGE30 REP=REPEATS  
 
@@ -871,7 +871,7 @@ priority 2
   viewLimits 0:5
   autoScale off
   color 244,125,115
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K27me3.stage09.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K27me3.stage09.xt8_0.bw
   parent ChIP-seq_8_0 on
   subGroups HM=H3K27ME3 ST=STAGE09 REP=NOREPEATS
  
@@ -885,7 +885,7 @@ priority 2
   viewLimits 0:5
   autoScale off
   color 239,59,44
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K27me3.stage10_5.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K27me3.stage10_5.xt8_0.bw
   parent ChIP-seq_8_0 on
   subGroups HM=H3K27ME3 ST=STAGE10_5 REP=NOREPEATS  
  
@@ -899,7 +899,7 @@ priority 2
   viewLimits 0:5
   autoScale off
   color 230,46,50
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K27me3.stage12_5.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K27me3.stage12_5.xt8_0.bw
   parent ChIP-seq_8_0 on
   subGroups HM=H3K27ME3 ST=STAGE12_5 REP=NOREPEATS
  
@@ -913,7 +913,7 @@ priority 2
   viewLimits 0:5
   autoScale off
   color 203,24,29
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K27me3.stage16.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K27me3.stage16.xt8_0.bw
   parent ChIP-seq_8_0 on
   subGroups HM=H3K27ME3 ST=STAGE16 REP=NOREPEATS
  
@@ -927,7 +927,7 @@ priority 2
   viewLimits 0:5
   autoScale off
   color 165,15,21
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K27me3.stage30.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K27me3.stage30.xt8_0.bw
   parent ChIP-seq_8_0 on
   subGroups HM=H3K27ME3 ST=STAGE30 REP=NOREPEATS
  
@@ -941,7 +941,7 @@ priority 2
   viewLimits 0:5
   autoScale off
   color 244,125,115
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K27me3.stage09.Rep.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K27me3.stage09.Rep.xt8_0.bw
   parent ChIP-seq_8_0 off
   subGroups HM=H3K27ME3 ST=STAGE09 REP=REPEATS 
  
@@ -955,7 +955,7 @@ priority 2
   viewLimits 0:5
   autoScale off
   color 239,59,44
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K27me3.stage10_5.Rep.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K27me3.stage10_5.Rep.xt8_0.bw
   parent ChIP-seq_8_0 off
   subGroups HM=H3K27ME3 ST=STAGE10_5 REP=REPEATS
  
@@ -969,7 +969,7 @@ priority 2
   viewLimits 0:5
   autoScale off
   color 230,46,50
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K27me3.stage12_5.Rep.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K27me3.stage12_5.Rep.xt8_0.bw
   parent ChIP-seq_8_0 off
   subGroups HM=H3K27ME3 ST=STAGE12_5 REP=REPEATS
  
@@ -983,7 +983,7 @@ priority 2
   viewLimits 0:5
   autoScale off
   color 203,24,29
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K27me3.stage16.Rep.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K27me3.stage16.Rep.xt8_0.bw
   parent ChIP-seq_8_0 off
   subGroups HM=H3K27ME3 ST=STAGE16 REP=REPEATS
   
@@ -997,7 +997,7 @@ priority 2
   viewLimits 0:5
   autoScale off
   color 165,15,21
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K27me3.stage30.Rep.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H3K27me3.stage30.Rep.xt8_0.bw
   parent ChIP-seq_8_0 off
   subGroups HM=H3K27ME3 ST=STAGE30 REP=REPEATS 
 
@@ -1012,7 +1012,7 @@ priority 2
   viewLimits 0:3.5
   autoScale off
   color 174,174,174
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H4K20me3.stage09.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H4K20me3.stage09.xt8_0.bw
   parent ChIP-seq_8_0 off
   subGroups HM=H4K20ME3 ST=STAGE09 REP=NOREPEATS  
 
@@ -1026,7 +1026,7 @@ priority 2
   viewLimits 0:3.5
   autoScale off
   color 144,144,144
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H4K20me3.stage10_5.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H4K20me3.stage10_5.xt8_0.bw
   parent ChIP-seq_8_0 off
   subGroups HM=H4K20ME3 ST=STAGE10_5 REP=NOREPEATS
 
@@ -1040,7 +1040,7 @@ priority 2
   viewLimits 0:3.5
   autoScale off
   color 113,113,113
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H4K20me3.stage12_5.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H4K20me3.stage12_5.xt8_0.bw
   parent ChIP-seq_8_0 off
   subGroups HM=H4K20ME3 ST=STAGE12_5 REP=NOREPEATS 
   
@@ -1054,7 +1054,7 @@ priority 2
   viewLimits 0:3.5
   autoScale off
   color 88,88,88
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H4K20me3.stage16.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H4K20me3.stage16.xt8_0.bw
   parent ChIP-seq_8_0 off
   subGroups HM=H4K20ME3 ST=STAGE16 REP=NOREPEATS  
   
@@ -1068,7 +1068,7 @@ priority 2
   viewLimits 0:3.5
   autoScale off
   color 29,29,29
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H4K20me3.stage30.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H4K20me3.stage30.xt8_0.bw
   parent ChIP-seq_8_0 off
   subGroups HM=H4K20ME3 ST=STAGE30 REP=NOREPEATS  
   
@@ -1082,7 +1082,7 @@ priority 2
   viewLimits 0:3.5
   autoScale off
   color 174,174,174
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H4K20me3.stage09.Rep.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H4K20me3.stage09.Rep.xt8_0.bw
   parent ChIP-seq_8_0 off
   subGroups HM=H4K20ME3 ST=STAGE09 REP=REPEATS
   
@@ -1096,7 +1096,7 @@ priority 2
   viewLimits 0:3.5
   autoScale off
   color 144,144,144
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H4K20me3.stage10_5.Rep.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H4K20me3.stage10_5.Rep.xt8_0.bw
   parent ChIP-seq_8_0 off
   subGroups HM=H4K20ME3 ST=STAGE10_5 REP=REPEATS
 
@@ -1110,7 +1110,7 @@ priority 2
   viewLimits 0:3.5
   autoScale off
   color 113,113,113
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H4K20me3.stage12_5.Rep.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H4K20me3.stage12_5.Rep.xt8_0.bw
   parent ChIP-seq_8_0 off
   subGroups HM=H4K20ME3 ST=STAGE12_5 REP=REPEATS
   
@@ -1124,7 +1124,7 @@ priority 2
   viewLimits 0:3.5
   autoScale off
   color 88,88,88
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H4K20me3.stage16.Rep.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H4K20me3.stage16.Rep.xt8_0.bw
   parent ChIP-seq_8_0 off
   subGroups HM=H4K20ME3 ST=STAGE16 REP=REPEATS    
   
@@ -1138,7 +1138,7 @@ priority 2
   viewLimits 0:3.5
   autoScale off
   color 29,29,29
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H4K20me3.stage30.Rep.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/H4K20me3.stage30.Rep.xt8_0.bw
   parent ChIP-seq_8_0 off
   subGroups HM=H4K20ME3 ST=STAGE30 REP=REPEATS  
 
@@ -1153,7 +1153,7 @@ priority 2
   viewLimits 0:3.5
   autoScale off
   color 115,50,0
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/RNAPII.stage09.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/RNAPII.stage09.xt8_0.bw
   parent ChIP-seq_8_0 on
   subGroups HM=RNAPII ST=STAGE09 REP=NOREPEATS
 
@@ -1167,7 +1167,7 @@ priority 2
   viewLimits 0:3.5
   autoScale off
   color 167,0,75
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/RNAPII.stage10_5.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/RNAPII.stage10_5.xt8_0.bw
   parent ChIP-seq_8_0 on
   subGroups HM=RNAPII ST=STAGE10_5 REP=NOREPEATS
 
@@ -1181,7 +1181,7 @@ priority 2
   viewLimits 0:3.5
   autoScale off
   color 137,0,75
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/RNAPII.stage12_5.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/RNAPII.stage12_5.xt8_0.bw
   parent ChIP-seq_8_0 on
   subGroups HM=RNAPII ST=STAGE12_5 REP=NOREPEATS
 
@@ -1195,7 +1195,7 @@ priority 2
   viewLimits 0:3.5
   autoScale off
   color 107,0,75
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/RNAPII.stage16.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/RNAPII.stage16.xt8_0.bw
   parent ChIP-seq_8_0 on
   subGroups HM=RNAPII ST=STAGE16 REP=NOREPEATS
 
@@ -1209,7 +1209,7 @@ priority 2
   viewLimits 0:3.5
   autoScale off
   color 77,0,75
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/RNAPII.stage30.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/RNAPII.stage30.xt8_0.bw
   parent ChIP-seq_8_0 on
   subGroups HM=RNAPII ST=STAGE30 REP=NOREPEATS
 
@@ -1223,7 +1223,7 @@ priority 2
   viewLimits 0:3.5
   autoScale off
   color 115,50,0
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/RNAPII.stage09.Rep.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/RNAPII.stage09.Rep.xt8_0.bw
   parent ChIP-seq_8_0 off
   subGroups HM=RNAPII ST=STAGE09 REP=REPEATS
   
@@ -1237,7 +1237,7 @@ priority 2
   viewLimits 0:3.5
   autoScale off
   color 167,0,75
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/RNAPII.stage10_5.Rep.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/RNAPII.stage10_5.Rep.xt8_0.bw
   parent ChIP-seq_8_0 off
   subGroups HM=RNAPII ST=STAGE10_5 REP=REPEATS
   
@@ -1251,7 +1251,7 @@ priority 2
   viewLimits 0:3.5
   autoScale off
   color 137,0,75
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/RNAPII.stage12_5.Rep.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/RNAPII.stage12_5.Rep.xt8_0.bw
   parent ChIP-seq_8_0 off
   subGroups HM=RNAPII ST=STAGE12_5 REP=REPEATS
   
@@ -1265,7 +1265,7 @@ priority 2
   viewLimits 0:3.5
   autoScale off
   color 107,0,75
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/RNAPII.stage16.Rep.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/RNAPII.stage16.Rep.xt8_0.bw
   parent ChIP-seq_8_0 off
   subGroups HM=RNAPII ST=STAGE16 REP=REPEATS  
 
@@ -1279,7 +1279,7 @@ priority 2
   viewLimits 0:3.5
   autoScale off
   color 77,0,75
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/RNAPII.stage30.Rep.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/RNAPII.stage30.Rep.xt8_0.bw
   parent ChIP-seq_8_0 off
   subGroups HM=RNAPII ST=STAGE30 REP=REPEATS
 
@@ -1294,7 +1294,7 @@ priority 2
   viewLimits 0:2.5
   autoScale off
   color 240,205,106
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/p300.stage09.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/p300.stage09.xt8_0.bw
   parent ChIP-seq_8_0 on
   subGroups HM=P300 ST=STAGE09 REP=NOREPEATS
   
@@ -1308,7 +1308,7 @@ priority 2
   viewLimits 0:2.5
   autoScale off
   color 235,188,57
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/p300.stage10_5.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/p300.stage10_5.xt8_0.bw
   parent ChIP-seq_8_0 on
   subGroups HM=P300 ST=STAGE10_5 REP=NOREPEATS
 
@@ -1322,7 +1322,7 @@ priority 2
   viewLimits 0:2.5
   autoScale off
   color 205,157,21
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/p300.stage12_5.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/p300.stage12_5.xt8_0.bw
   parent ChIP-seq_8_0 on
   subGroups HM=P300 ST=STAGE12_5 REP=NOREPEATS
 
@@ -1336,7 +1336,7 @@ priority 2
   viewLimits 0:2.5
   autoScale off
   color 174,133,18
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/p300.stage16.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/p300.stage16.xt8_0.bw
   parent ChIP-seq_8_0 on
   subGroups HM=P300 ST=STAGE16 REP=NOREPEATS
   
@@ -1350,7 +1350,7 @@ priority 2
   viewLimits 0:2.5
   autoScale off
   color 133,102,13
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/p300.stage30.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/p300.stage30.xt8_0.bw
   parent ChIP-seq_8_0 on
   subGroups HM=P300 ST=STAGE30 REP=NOREPEATS  
 
@@ -1364,7 +1364,7 @@ priority 2
   viewLimits 0:2.5
   autoScale off
   color 240,205,106
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/p300.stage09.Rep.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/p300.stage09.Rep.xt8_0.bw
   parent ChIP-seq_8_0 off
   subGroups HM=P300 ST=STAGE09 REP=REPEATS
   
@@ -1378,7 +1378,7 @@ priority 2
   viewLimits 0:2.5
   autoScale off
   color 235,188,57
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/p300.stage10_5.Rep.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/p300.stage10_5.Rep.xt8_0.bw
   parent ChIP-seq_8_0 off
   subGroups HM=P300 ST=STAGE10_5 REP=REPEATS
   
@@ -1392,7 +1392,7 @@ priority 2
   viewLimits 0:2.5
   autoScale off
   color 205,157,21
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/p300.stage12_5.Rep.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/p300.stage12_5.Rep.xt8_0.bw
   parent ChIP-seq_8_0 off
   subGroups HM=P300 ST=STAGE12_5 REP=REPEATS
   
@@ -1406,7 +1406,7 @@ priority 2
   viewLimits 0:2.5
   autoScale off
   color 174,133,18
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/p300.stage16.Rep.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/p300.stage16.Rep.xt8_0.bw
   parent ChIP-seq_8_0 off
   subGroups HM=P300 ST=STAGE16 REP=REPEATS
 
@@ -1420,7 +1420,7 @@ priority 2
   viewLimits 0:2.5
   autoScale off
   color 133,102,13
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/p300.stage30.Rep.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/p300.stage30.Rep.xt8_0.bw
   parent ChIP-seq_8_0 off
   subGroups HM=P300 ST=STAGE30 REP=REPEATS
 
@@ -1435,7 +1435,7 @@ priority 2
   viewLimits 0:3.5
   autoScale off
   color 0,0,0
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/input.stage09_12_5.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/input.stage09_12_5.xt8_0.bw
   parent ChIP-seq_8_0 off
   subGroups HM=INPUT ST=STAGE9_12 REP=REPEATS   
   
@@ -1449,7 +1449,7 @@ priority 2
   viewLimits 0:3.5
   autoScale off
   color 0,0,0
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/input.stage30.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/input.stage30.xt8_0.bw
   parent ChIP-seq_8_0 off
   subGroups HM=INPUT ST=STAGE30 REP=NOREPEATS
   
@@ -1463,6 +1463,6 @@ priority 2
   viewLimits 0:3.5
   autoScale off
   color 0,0,0
-  bigDataUrl http://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/input.stage30.Rep.xt8_0.bw
+  bigDataUrl https://trackhub.science.ru.nl/bw/project/xtropicalis/xt8_0/input.stage30.Rep.xt8_0.bw
   parent ChIP-seq_8_0 off
   subGroups HM=INPUT ST=STAGE30 REP=REPEATS
