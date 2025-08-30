@@ -1,11 +1,11 @@
 track cytoBandIdeo
-bigDataUrl https://trackhub.science.ru.nl/hubs/veenstralab/resources/genomes/doryteuthis.pealeii/data/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/cytoBandIdeo.bigBed
+bigDataUrl https://trackhub.science.ru.nl/hubs/veenstralab/resources/genomes/doryteuthis.pealeii/cytoBandIdeo.bigBed
 shortLabel cytoBandIdeo
 longLabel Chromosome ideogram with cytogenetic bands
 type bigBed
 
 track gcPercent
-bigDataUrl https://trackhub.science.ru.nl/hubs/veenstralab/resources/genomes/doryteuthis.pealeii/data/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/gcPercent.bigWig
+bigDataUrl https://trackhub.science.ru.nl/hubs/veenstralab/resources/genomes/doryteuthis.pealeii/gcPercent.bigWig
 shortLabel gcPercent
 longLabel gcPercent
 type bigWig
@@ -15,7 +15,7 @@ priority 1.1
 visibility hide
 
 track softmasked
-bigDataUrl https://trackhub.science.ru.nl/hubs/veenstralab/resources/genomes/doryteuthis.pealeii/data/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/softmasked.bigBed
+bigDataUrl https://trackhub.science.ru.nl/hubs/veenstralab/resources/genomes/doryteuthis.pealeii/softmasked.bigBed
 shortLabel softmasked
 longLabel softmasked
 type bigBed
