@@ -1,11 +1,11 @@
 track cytoBandIdeo
-bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/cytoBandIdeo.bigBed
+bigDataUrl https://trackhub.science.ru.nl/hubs/veenstralab/resources/genomes/doryteuthis.pealeii/data/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/cytoBandIdeo.bigBed
 shortLabel cytoBandIdeo
 longLabel Chromosome ideogram with cytogenetic bands
 type bigBed
 
 track gcPercent
-bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/gcPercent.bigWig
+bigDataUrl https://trackhub.science.ru.nl/hubs/veenstralab/resources/genomes/doryteuthis.pealeii/data/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/gcPercent.bigWig
 shortLabel gcPercent
 longLabel gcPercent
 type bigWig
@@ -15,7 +15,7 @@ priority 1.1
 visibility hide
 
 track softmasked
-bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/softmasked.bigBed
+bigDataUrl https://trackhub.science.ru.nl/hubs/veenstralab/resources/genomes/doryteuthis.pealeii/data/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/softmasked.bigBed
 shortLabel softmasked
 longLabel softmasked
 type bigBed
@@ -36,11 +36,11 @@ superTrack on show
   shortLabel JGI_v2.1_genes from gff3
   parent gene_annotation
   type bigBed 12
-  bigDataUrl https://mbdata.science.ru.nl/track_data/trackhubs_internal/doryteuthis.pealeii_data/dpe2.1/Dpealeiiv2.gene_exons_12bed.bed.bb
+  bigDataUrl https://trackhub.science.ru.nl/hubs/veenstralab/resources/genomes/doryteuthis.pealeii/data/annotation/Dpealeiiv2.gene_exons_12bed.bed.bb
   visibility hide
   bedNameLabel name
   searchIndex name
-  searchTrix https://mbdata.science.ru.nl/track_data/trackhubs_internal/doryteuthis.pealeii_data/dpe2.1/Dpealeiiv2.gene_exons_12bed.bed.ix
+  searchTrix https://trackhub.science.ru.nl/hubs/veenstralab/resources/genomes/doryteuthis.pealeii/data/annotation/Dpealeiiv2.gene_exons_12bed.bed.ix
   labelOnFeature off
   priority 10.1
 
@@ -49,11 +49,11 @@ superTrack on show
   shortLabel pita_genes
   parent gene_annotation
   type bigBed 12
-  bigDataUrl https://mbdata.science.ru.nl/track_data/trackhubs_internal/doryteuthis.pealeii_data/dpe2.1/pita_genes_v0.3_sorted.bed.bb
+  bigDataUrl https://trackhub.science.ru.nl/hubs/veenstralab/resources/genomes/doryteuthis.pealeii/data/annotation/pita_genes_v0.3_sorted.bed.bb
   visibility full
   bedNameLabel name
   searchIndex name
-  searchTrix https://mbdata.science.ru.nl/track_data/trackhubs_internal/doryteuthis.pealeii_data/dpe2.1/pita_genes_v0.3_sorted.bed.ix
+  searchTrix https://trackhub.science.ru.nl/hubs/veenstralab/resources/genomes/doryteuthis.pealeii/data/annotation/pita_genes_v0.3_sorted.bed.ix
   labelOnFeature off
   priority 10.3
   color 30,30,120
