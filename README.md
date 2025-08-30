@@ -1,6 +1,7 @@
 # trackhubs_public
 ## Collection of released trackhub records
 
+- [dpe_v2.1](https://trackhub.science.ru.nl/hubs/veenstralab/trackhubs_public/doryteuthis.pealeii/hub.txt)
 - [kPetMar1.pri](https://trackhub.science.ru.nl/hubs/veenstralab/trackhubs_public/petromyzon.marinus/hub.txt)
 - [mm10](https://trackhub.science.ru.nl/hubs/veenstralab/trackhubs_public/mus.musculus/hub.txt)
 - [xenopus](https://trackhub.science.ru.nl/hubs/veenstralab/trackhubs_public/xenopus/hub.txt) (xLav91, xt7_1, xt8_0, xt9_0, Xentr10.0)
