@@ -1,0 +1,9 @@
+genome Dpe_v2.1
+trackDb Dpe_v2.1/trackDb.txt
+twoBitPath https://mbdata.science.ru.nl/track_data/dpe_v2.1_data/Dpe_v2.1.new.2bit
+groups Dpe_v2.1/groups.txt
+organism Longfin inshore squid
+defaultPos Dpe01:47,811,047-48,334,829
+orderKey 1
+scientificName Doryteuthis pealeii
+description Dpe_v2.1

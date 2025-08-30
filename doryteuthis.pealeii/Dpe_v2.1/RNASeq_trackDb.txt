@@ -1,0 +1,1094 @@
+track RNAseqsamples
+shortLabel RNA-seq
+longLabel RNA-seq samples
+type bigWig
+dimensions dimX=view dimY=samples
+group trackhub_RU
+visibility dense
+subGroup1 view Views forward=forward reverse=reverse
+subGroup2 samples Samples lenscoreUOP=lens_core_UOP lensperiUOP=lens_peri_UOP branchialheartRCM=branchial_heart_RCM skinchromatophorelayerRCM=skin_chromatophore_layer_RCM skiniridophorelayerRCM=skin_iridophore_layer_RCM gillRCM=gill_RCM verticallobeRCM=vertical_lobe_RCM stellateganglionRCM=stellate_ganglion_RCM buccalgangliaRCM=buccal_ganglia_RCM mantlemuscleMU=mantle_muscle_MU armkeelMU=arm_keel_MU nuchalretractorMU=nuchal_retractor_MU suctioncupPENN=suction_cup_PENN eyeembryonic231UTA=eye_embryonic23_1_UTA eyeembryonic271UTA=eye_embryonic27_1_UTA eyeembryonic251UTA=eye_embryonic25_1_UTA eyeembryonic211UTA=eye_embryonic21_1_UTA eyeembryonic191UTA=eye_embryonic19_1_UTA giantfiberlobeMBL=giant_fiber_lobe_MBL giantaxonMBL=giant_axon_MBL systemicheartUCB=systemic_heart_UCB gillUCB=gill_UCB bloodUCB=blood_UCB buccalmassUCB=buccal_mass_UCB finDskinlayersUCB=finD_skin_layers_UCB mantleDskinchromatophoreUCB=mantleD_skin_chromatophore_UCB mantleDskiniridophoreUCB=mantleD_skin_iridophore_UCB mantleVskinchromatophoreUCB=mantleV_skin_chromatophore_UCB mantleVskiniridophoreUCB=mantleV_skin_iridophore_UCB verticallobeUCB=vertical_lobe_UCB supraesophagealbrainUCB=supraesophageal_brain_UCB subesophagealbrainUCB=subesophageal_brain_UCB giantfiberlobeUCB=giant_fiber_lobe_UCB stellateganglionUCB=stellate_ganglion_UCB buccallobeUCB=buccal_lobe_UCB brachiallobeUCB=brachial_lobe_UCB axialnervecordUCB=axial_nerve_cord_UCB testesUCB=testes_UCB tentaclesUCB=tentacles_UCB suckersUCB=suckers_UCB retinaUCB=retina_UCB mantlemuscleUCB=mantle_muscle_UCB kidneyUCB=kidney_UCB inkUCB=ink_UCB hepatopancreasUCB=hepatopancreas_UCB posteriorsalivaryglandUCB=posterior_salivary_gland_UCB giantfiberlobeUHC=giant_fiber_lobe_UHC opticlobeUHC=optic_lobe_UHC opticlobeUOF=optic_lobe_UOF frontalverticalbranchiallobesUOF=frontal_vertical_branchial_lobes_UOF stellateganglionUOF=stellate_ganglion_UOF
+autoScale group
+compositeTrack on
+
+    track forwardstrandunstrandedreads
+    shortLabel fwd/all reads
+    longLabel forward strand/unstranded reads
+    type bigWig
+    maxHeightPixels 100:50:8
+    parent RNAseqsamples
+    view forward
+
+            track systemicheartUCBforward
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/systemicheartUCBforward.bigWig
+            shortLabel branchial_hrt fw
+            longLabel branchial_heart_UCB forward (wrongly annotated as systemic before)
+            type bigWig
+            color 187,191,0
+            parent forwardstrandunstrandedreads
+            priority 11.0
+            visibility full
+            subGroups samples=systemicheartUCB view=forward
+
+            track branchialheartRCMforward
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/branchialheartRCMforward.bigWig
+            shortLabel branchilhrtRCM fw
+            longLabel branchial_heart_RCM forward
+            type bigWig
+            color 191,20,0
+            parent forwardstrandunstrandedreads
+            priority 11.5
+            visibility dense
+            subGroups samples=branchialheartRCM view=forward
+    
+            track lenscoreUOPforward
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/lenscoreUOPforward.bigWig
+            shortLabel lens_core_UOP fw
+            longLabel lens_core_UOP forward
+            type bigWig
+            color 191,0,0
+            parent forwardstrandunstrandedreads
+            priority 13
+            visibility dense
+            subGroups samples=lenscoreUOP view=forward
+
+            track lensperiUOPforward
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/lensperiUOPforward.bigWig
+            shortLabel lens_peri_UOP fw
+            longLabel lens_peri_UOP forward
+            type bigWig
+            color 0,191,125
+            parent forwardstrandunstrandedreads
+            priority 15.0
+            visibility dense
+            subGroups samples=lensperiUOP view=forward
+    
+            track skinchromatophorelayerRCMforward
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/skinchromatophorelayerRCMforward.bigWig
+            shortLabel sknchrmrlyrRCM fw
+            longLabel skin_chromatophore_layer_RCM forward
+            type bigWig
+            color 0,191,144
+            parent forwardstrandunstrandedreads
+            priority 17.0
+            visibility dense
+            subGroups samples=skinchromatophorelayerRCM view=forward
+    
+            track skiniridophorelayerRCMforward
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/skiniridophorelayerRCMforward.bigWig
+            shortLabel sknrdphrlyrRCM fw
+            longLabel skin_iridophore_layer_RCM forward
+            type bigWig
+            color 191,39,0
+            parent forwardstrandunstrandedreads
+            priority 19.0
+            visibility dense
+            subGroups samples=skiniridophorelayerRCM view=forward
+    
+            track gillRCMforward
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/gillRCMforward.bigWig
+            shortLabel gill_RCM fw
+            longLabel gill_RCM forward
+            type bigWig
+            color 0,191,164
+            parent forwardstrandunstrandedreads
+            priority 21.0
+            visibility dense
+            subGroups samples=gillRCM view=forward
+    
+            track verticallobeRCMforward
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/verticallobeRCMforward.bigWig
+            shortLabel verticallobRCM fw
+            longLabel vertical_lobe_RCM forward
+            type bigWig
+            color 191,59,0
+            parent forwardstrandunstrandedreads
+            priority 23.0
+            visibility dense
+            subGroups samples=verticallobeRCM view=forward
+    
+            track stellateganglionRCMforward
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/stellateganglionRCMforward.bigWig
+            shortLabel stelltgnglnRCM fw
+            longLabel stellate_ganglion_RCM forward
+            type bigWig
+            color 0,191,183
+            parent forwardstrandunstrandedreads
+            priority 25.0
+            visibility dense
+            subGroups samples=stellateganglionRCM view=forward
+    
+            track buccalgangliaRCMforward
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/buccalgangliaRCMforward.bigWig
+            shortLabel buccalganglRCM fw
+            longLabel buccal_ganglia_RCM forward
+            type bigWig
+            color 191,78,0
+            parent forwardstrandunstrandedreads
+            priority 27.0
+            visibility dense
+            subGroups samples=buccalgangliaRCM view=forward
+    
+            track mantlemuscleMUforward
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/mantlemuscleMUforward.bigWig
+            shortLabel mantlemuscleMU fw
+            longLabel mantle_muscle_MU forward
+            type bigWig
+            color 0,180,191
+            parent forwardstrandunstrandedreads
+            priority 29.0
+            visibility dense
+            subGroups samples=mantlemuscleMU view=forward
+    
+            track armkeelMUforward
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/armkeelMUforward.bigWig
+            shortLabel arm_keel_MU fw
+            longLabel arm_keel_MU forward
+            type bigWig
+            color 191,98,0
+            parent forwardstrandunstrandedreads
+            priority 31.0
+            visibility dense
+            subGroups samples=armkeelMU view=forward
+    
+            track nuchalretractorMUforward
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/nuchalretractorMUforward.bigWig
+            shortLabel nuchalrtrctrMU fw
+            longLabel nuchal_retractor_MU forward
+            type bigWig
+            color 0,160,191
+            parent forwardstrandunstrandedreads
+            priority 33.0
+            visibility dense
+            subGroups samples=nuchalretractorMU view=forward
+    
+            track suctioncupPENNforward
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/suctioncupPENNforward.bigWig
+            shortLabel suctioncupPENN fw
+            longLabel suction_cup_PENN forward
+            type bigWig
+            color 191,117,0
+            parent forwardstrandunstrandedreads
+            priority 35.0
+            visibility dense
+            subGroups samples=suctioncupPENN view=forward
+    
+            track eyeembryonic231UTAforward
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/eyeembryonic231UTAforward.bigWig
+            shortLabel eymbrync231UTA fw
+            longLabel eye_embryonic23_1_UTA forward
+            type bigWig
+            color 0,141,191
+            parent forwardstrandunstrandedreads
+            priority 37.0
+            visibility dense
+            subGroups samples=eyeembryonic231UTA view=forward
+    
+            track eyeembryonic271UTAforward
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/eyeembryonic271UTAforward.bigWig
+            shortLabel eymbrync271UTA fw
+            longLabel eye_embryonic27_1_UTA forward
+            type bigWig
+            color 191,137,0
+            parent forwardstrandunstrandedreads
+            priority 39.0
+            visibility dense
+            subGroups samples=eyeembryonic271UTA view=forward
+    
+            track eyeembryonic251UTAforward
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/eyeembryonic251UTAforward.bigWig
+            shortLabel eymbrync251UTA fw
+            longLabel eye_embryonic25_1_UTA forward
+            type bigWig
+            color 0,121,191
+            parent forwardstrandunstrandedreads
+            priority 41.0
+            visibility dense
+            subGroups samples=eyeembryonic251UTA view=forward
+    
+            track eyeembryonic211UTAforward
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/eyeembryonic211UTAforward.bigWig
+            shortLabel eymbrync211UTA fw
+            longLabel eye_embryonic21_1_UTA forward
+            type bigWig
+            color 191,156,0
+            parent forwardstrandunstrandedreads
+            priority 43.0
+            visibility dense
+            subGroups samples=eyeembryonic211UTA view=forward
+    
+            track eyeembryonic191UTAforward
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/eyeembryonic191UTAforward.bigWig
+            shortLabel eymbrync191UTA fw
+            longLabel eye_embryonic19_1_UTA forward
+            type bigWig
+            color 0,102,191
+            parent forwardstrandunstrandedreads
+            priority 45.0
+            visibility dense
+            subGroups samples=eyeembryonic191UTA view=forward
+    
+            track giantfiberlobeMBLforward
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/giantfiberlobeMBLforward.bigWig
+            shortLabel giantfibrlbMBL fw
+            longLabel giant_fiber_lobe_MBL forward
+            type bigWig
+            color 191,176,0
+            parent forwardstrandunstrandedreads
+            priority 47.0
+            visibility dense
+            subGroups samples=giantfiberlobeMBL view=forward
+    
+            track giantaxonMBLforward
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/giantaxonMBLforward.bigWig
+            shortLabel giant_axon_MBL fw
+            longLabel giant_axon_MBL forward
+            type bigWig
+            color 0,82,191
+            parent forwardstrandunstrandedreads
+            priority 49.0
+            visibility dense
+            subGroups samples=giantaxonMBL view=forward
+
+            track gillUCBforward
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/gillUCBforward.bigWig
+            shortLabel gill_UCB fw
+            longLabel gill_UCB forward
+            type bigWig
+            color 0,63,191
+            parent forwardstrandunstrandedreads
+            priority 53.0
+            visibility dense
+            subGroups samples=gillUCB view=forward
+    
+            track bloodUCBforward
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/bloodUCBforward.bigWig
+            shortLabel blood_UCB fw
+            longLabel blood_UCB forward
+            type bigWig
+            color 168,191,0
+            parent forwardstrandunstrandedreads
+            priority 55.0
+            visibility dense
+            subGroups samples=bloodUCB view=forward
+    
+            track buccalmassUCBforward
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/buccalmassUCBforward.bigWig
+            shortLabel buccal_massUCB fw
+            longLabel buccal_mass_UCB forward
+            type bigWig
+            color 0,43,191
+            parent forwardstrandunstrandedreads
+            priority 57.0
+            visibility dense
+            subGroups samples=buccalmassUCB view=forward
+    
+            track finDskinlayersUCBforward
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/finDskinlayersUCBforward.bigWig
+            shortLabel finDsknlyrsUCB fw
+            longLabel finD_skin_layers_UCB forward
+            type bigWig
+            color 148,191,0
+            parent forwardstrandunstrandedreads
+            priority 59.0
+            visibility dense
+            subGroups samples=finDskinlayersUCB view=forward
+    
+            track mantleDskinchromatophoreUCBforward
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/mantleDskinchromatophoreUCBforward.bigWig
+            shortLabel mntlDsktphrUCB fw
+            longLabel mantleD_skin_chromatophore_UCB forward
+            type bigWig
+            color 0,24,191
+            parent forwardstrandunstrandedreads
+            priority 61.0
+            visibility dense
+            subGroups samples=mantleDskinchromatophoreUCB view=forward
+    
+            track mantleDskiniridophoreUCBforward
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/mantleDskiniridophoreUCBforward.bigWig
+            shortLabel mntlDskdphrUCB fw
+            longLabel mantleD_skin_iridophore_UCB forward
+            type bigWig
+            color 129,191,0
+            parent forwardstrandunstrandedreads
+            priority 63.0
+            visibility dense
+            subGroups samples=mantleDskiniridophoreUCB view=forward
+    
+            track mantleVskinchromatophoreUCBforward
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/mantleVskinchromatophoreUCBforward.bigWig
+            shortLabel mntlVsktphrUCB fw
+            longLabel mantleV_skin_chromatophore_UCB forward
+            type bigWig
+            color 0,4,191
+            parent forwardstrandunstrandedreads
+            priority 65.0
+            visibility dense
+            subGroups samples=mantleVskinchromatophoreUCB view=forward
+    
+            track mantleVskiniridophoreUCBforward
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/mantleVskiniridophoreUCBforward.bigWig
+            shortLabel mntlVskdphrUCB fw
+            longLabel mantleV_skin_iridophore_UCB forward
+            type bigWig
+            color 109,191,0
+            parent forwardstrandunstrandedreads
+            priority 67.0
+            visibility dense
+            subGroups samples=mantleVskiniridophoreUCB view=forward
+    
+            track verticallobeUCBforward
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/verticallobeUCBforward.bigWig
+            shortLabel verticallobUCB fw
+            longLabel vertical_lobe_UCB forward
+            type bigWig
+            color 15,0,191
+            parent forwardstrandunstrandedreads
+            priority 69.0
+            visibility dense
+            subGroups samples=verticallobeUCB view=forward
+    
+            track supraesophagealbrainUCBforward
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/supraesophagealbrainUCBforward.bigWig
+            shortLabel sprsphglbrnUCB fw
+            longLabel supraesophageal_brain_UCB forward
+            type bigWig
+            color 90,191,0
+            parent forwardstrandunstrandedreads
+            priority 71.0
+            visibility dense
+            subGroups samples=supraesophagealbrainUCB view=forward
+    
+            track subesophagealbrainUCBforward
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/subesophagealbrainUCBforward.bigWig
+            shortLabel subsphglbrnUCB fw
+            longLabel subesophageal_brain_UCB forward
+            type bigWig
+            color 35,0,191
+            parent forwardstrandunstrandedreads
+            priority 73.0
+            visibility dense
+            subGroups samples=subesophagealbrainUCB view=forward
+    
+            track giantfiberlobeUCBforward
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/giantfiberlobeUCBforward.bigWig
+            shortLabel giantfibrlbUCB fw
+            longLabel giant_fiber_lobe_UCB forward
+            type bigWig
+            color 70,191,0
+            parent forwardstrandunstrandedreads
+            priority 75.0
+            visibility dense
+            subGroups samples=giantfiberlobeUCB view=forward
+    
+            track stellateganglionUCBforward
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/stellateganglionUCBforward.bigWig
+            shortLabel stelltgnglnUCB fw
+            longLabel stellate_ganglion_UCB forward
+            type bigWig
+            color 54,0,191
+            parent forwardstrandunstrandedreads
+            priority 77.0
+            visibility dense
+            subGroups samples=stellateganglionUCB view=forward
+    
+            track buccallobeUCBforward
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/buccallobeUCBforward.bigWig
+            shortLabel buccal_lobeUCB fw
+            longLabel buccal_lobe_UCB forward
+            type bigWig
+            color 51,191,0
+            parent forwardstrandunstrandedreads
+            priority 79.0
+            visibility dense
+            subGroups samples=buccallobeUCB view=forward
+    
+            track brachiallobeUCBforward
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/brachiallobeUCBforward.bigWig
+            shortLabel brachiallobUCB fw
+            longLabel brachial_lobe_UCB forward
+            type bigWig
+            color 74,0,191
+            parent forwardstrandunstrandedreads
+            priority 81.0
+            visibility dense
+            subGroups samples=brachiallobeUCB view=forward
+    
+            track axialnervecordUCBforward
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/axialnervecordUCBforward.bigWig
+            shortLabel axialnrvcrdUCB fw
+            longLabel axial_nerve_cord_UCB forward
+            type bigWig
+            color 31,191,0
+            parent forwardstrandunstrandedreads
+            priority 83.0
+            visibility dense
+            subGroups samples=axialnervecordUCB view=forward
+    
+            track testesUCBforward
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/testesUCBforward.bigWig
+            shortLabel testes_UCB fw
+            longLabel testes_UCB forward
+            type bigWig
+            color 93,0,191
+            parent forwardstrandunstrandedreads
+            priority 85.0
+            visibility dense
+            subGroups samples=testesUCB view=forward
+    
+            track tentaclesUCBforward
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/tentaclesUCBforward.bigWig
+            shortLabel tentacles_UCB fw
+            longLabel tentacles_UCB forward
+            type bigWig
+            color 12,191,0
+            parent forwardstrandunstrandedreads
+            priority 87.0
+            visibility dense
+            subGroups samples=tentaclesUCB view=forward
+    
+            track suckersUCBforward
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/suckersUCBforward.bigWig
+            shortLabel suckers_UCB fw
+            longLabel suckers_UCB forward
+            type bigWig
+            color 113,0,191
+            parent forwardstrandunstrandedreads
+            priority 89.0
+            visibility dense
+            subGroups samples=suckersUCB view=forward
+    
+            track retinaUCBforward
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/retinaUCBforward.bigWig
+            shortLabel retina_UCB fw
+            longLabel retina_UCB forward
+            type bigWig
+            color 0,191,8
+            parent forwardstrandunstrandedreads
+            priority 91.0
+            visibility dense
+            subGroups samples=retinaUCB view=forward
+    
+            track mantlemuscleUCBforward
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/mantlemuscleUCBforward.bigWig
+            shortLabel mantlemusclUCB fw
+            longLabel mantle_muscle_UCB forward
+            type bigWig
+            color 132,0,191
+            parent forwardstrandunstrandedreads
+            priority 93.0
+            visibility dense
+            subGroups samples=mantlemuscleUCB view=forward
+    
+            track kidneyUCBforward
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/kidneyUCBforward.bigWig
+            shortLabel kidney_UCB fw
+            longLabel kidney_UCB forward
+            type bigWig
+            color 0,191,27
+            parent forwardstrandunstrandedreads
+            priority 95.0
+            visibility dense
+            subGroups samples=kidneyUCB view=forward
+    
+            track inkUCBforward
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/inkUCBforward.bigWig
+            shortLabel ink_UCB fw
+            longLabel ink_UCB forward
+            type bigWig
+            color 152,0,191
+            parent forwardstrandunstrandedreads
+            priority 97.0
+            visibility dense
+            subGroups samples=inkUCB view=forward
+    
+            track hepatopancreasUCBforward
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/hepatopancreasUCBforward.bigWig
+            shortLabel hepatopncrsUCB fw
+            longLabel hepatopancreas_UCB forward
+            type bigWig
+            color 0,191,47
+            parent forwardstrandunstrandedreads
+            priority 99.0
+            visibility dense
+            subGroups samples=hepatopancreasUCB view=forward
+    
+            track posteriorsalivaryglandUCBforward
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/posteriorsalivaryglandUCBforward.bigWig
+            shortLabel pstrrslglndUCB fw
+            longLabel posterior_salivary_gland_UCB forward
+            type bigWig
+            color 171,0,191
+            parent forwardstrandunstrandedreads
+            priority 101.0
+            visibility dense
+            subGroups samples=posteriorsalivaryglandUCB view=forward
+    
+            track giantfiberlobeUHC
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/giantfiberlobeUHC.bigWig
+            shortLabel giantfiberlobeUHC
+            longLabel giant_fiber_lobe_UHC
+            type bigWig
+            color 0,191,66
+            parent forwardstrandunstrandedreads
+            priority 103.0
+            visibility dense
+            subGroups samples=giantfiberlobeUHC view=forward
+    
+            track opticlobeUHC
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/opticlobeUHC.bigWig
+            shortLabel optic_lobe_UHC
+            longLabel optic_lobe_UHC
+            type bigWig
+            color 191,0,191
+            parent forwardstrandunstrandedreads
+            priority 104.0
+            visibility dense
+            subGroups samples=opticlobeUHC view=forward
+    
+            track opticlobeUOF
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/opticlobeUOF.bigWig
+            shortLabel optic_lobe_UOF
+            longLabel optic_lobe_UOF
+            type bigWig
+            color 0,191,86
+            parent forwardstrandunstrandedreads
+            priority 105.0
+            visibility dense
+            subGroups samples=opticlobeUOF view=forward
+    
+            track frontalverticalbranchiallobesUOF
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/frontalverticalbranchiallobesUOF.bigWig
+            shortLabel frntlvrtchllbsUOF
+            longLabel frontal_vertical_branchial_lobes_UOF
+            type bigWig
+            color 191,0,172
+            parent forwardstrandunstrandedreads
+            priority 106.0
+            visibility dense
+            subGroups samples=frontalverticalbranchiallobesUOF view=forward
+    
+            track stellateganglionUOF
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/stellateganglionUOF.bigWig
+            shortLabel stellateganglnUOF
+            longLabel stellate_ganglion_UOF
+            type bigWig
+            color 0,191,105
+            parent forwardstrandunstrandedreads
+            priority 107.0
+            visibility dense
+            subGroups samples=stellateganglionUOF view=forward
+
+    track reversestrandreads
+    shortLabel rev reads
+    longLabel reverse strand reads
+    type bigWig
+    maxHeightPixels 100:50:8
+    parent RNAseqsamples
+    view reverse
+
+            track systemicheartUCBreverse
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/systemicheartUCBreverse.bigWig
+            shortLabel branchial_hrt rv
+            longLabel branchial_heart_UCB reverse (wrongly annotated as systemic before)
+            type bigWig
+            color 209,212,57
+            parent reversestrandreads
+            priority 11.1
+            visibility full
+            subGroups samples=systemicheartUCB view=reverse
+
+            track branchialheartRCMreverse
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/branchialheartRCMreverse.bigWig
+            shortLabel branchilhrtRCM rv
+            longLabel branchial_heart_RCM reverse
+            type bigWig
+            color 212,73,57
+            parent reversestrandreads
+            priority 12.0
+            visibility dense
+            subGroups samples=branchialheartRCM view=reverse
+    
+            track lenscoreUOPreverse
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/lenscoreUOPreverse.bigWig
+            shortLabel lens_core_UOP rv
+            longLabel lens_core_UOP reverse
+            type bigWig
+            color 212,57,57
+            parent reversestrandreads
+            priority 14.0
+            visibility dense
+            subGroups samples=lenscoreUOP view=reverse
+    
+            track lensperiUOPreverse
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/lensperiUOPreverse.bigWig
+            shortLabel lens_peri_UOP rv
+            longLabel lens_peri_UOP reverse
+            type bigWig
+            color 57,212,158
+            parent reversestrandreads
+            priority 16.0
+            visibility dense
+            subGroups samples=lensperiUOP view=reverse
+    
+            track skinchromatophorelayerRCMreverse
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/skinchromatophorelayerRCMreverse.bigWig
+            shortLabel sknchrmrlyrRCM rv
+            longLabel skin_chromatophore_layer_RCM reverse
+            type bigWig
+            color 57,212,174
+            parent reversestrandreads
+            priority 18.0
+            visibility dense
+            subGroups samples=skinchromatophorelayerRCM view=reverse
+    
+            track skiniridophorelayerRCMreverse
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/skiniridophorelayerRCMreverse.bigWig
+            shortLabel sknrdphrlyrRCM rv
+            longLabel skin_iridophore_layer_RCM reverse
+            type bigWig
+            color 212,88,57
+            parent reversestrandreads
+            priority 20.0
+            visibility dense
+            subGroups samples=skiniridophorelayerRCM view=reverse
+    
+            track gillRCMreverse
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/gillRCMreverse.bigWig
+            shortLabel gill_RCM rv
+            longLabel gill_RCM reverse
+            type bigWig
+            color 57,212,190
+            parent reversestrandreads
+            priority 22.0
+            visibility dense
+            subGroups samples=gillRCM view=reverse
+    
+            track verticallobeRCMreverse
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/verticallobeRCMreverse.bigWig
+            shortLabel verticallobRCM rv
+            longLabel vertical_lobe_RCM reverse
+            type bigWig
+            color 212,104,57
+            parent reversestrandreads
+            priority 24.0
+            visibility dense
+            subGroups samples=verticallobeRCM view=reverse
+    
+            track stellateganglionRCMreverse
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/stellateganglionRCMreverse.bigWig
+            shortLabel stelltgnglnRCM rv
+            longLabel stellate_ganglion_RCM reverse
+            type bigWig
+            color 57,212,206
+            parent reversestrandreads
+            priority 26.0
+            visibility dense
+            subGroups samples=stellateganglionRCM view=reverse
+    
+            track buccalgangliaRCMreverse
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/buccalgangliaRCMreverse.bigWig
+            shortLabel buccalganglRCM rv
+            longLabel buccal_ganglia_RCM reverse
+            type bigWig
+            color 212,120,57
+            parent reversestrandreads
+            priority 28.0
+            visibility dense
+            subGroups samples=buccalgangliaRCM view=reverse
+    
+            track mantlemuscleMUreverse
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/mantlemuscleMUreverse.bigWig
+            shortLabel mantlemuscleMU rv
+            longLabel mantle_muscle_MU reverse
+            type bigWig
+            color 57,203,212
+            parent reversestrandreads
+            priority 30.0
+            visibility dense
+            subGroups samples=mantlemuscleMU view=reverse
+    
+            track armkeelMUreverse
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/armkeelMUreverse.bigWig
+            shortLabel arm_keel_MU rv
+            longLabel arm_keel_MU reverse
+            type bigWig
+            color 212,136,57
+            parent reversestrandreads
+            priority 32.0
+            visibility dense
+            subGroups samples=armkeelMU view=reverse
+    
+            track nuchalretractorMUreverse
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/nuchalretractorMUreverse.bigWig
+            shortLabel nuchalrtrctrMU rv
+            longLabel nuchal_retractor_MU reverse
+            type bigWig
+            color 57,187,212
+            parent reversestrandreads
+            priority 34.0
+            visibility dense
+            subGroups samples=nuchalretractorMU view=reverse
+    
+            track suctioncupPENNreverse
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/suctioncupPENNreverse.bigWig
+            shortLabel suctioncupPENN rv
+            longLabel suction_cup_PENN reverse
+            type bigWig
+            color 212,152,57
+            parent reversestrandreads
+            priority 36.0
+            visibility dense
+            subGroups samples=suctioncupPENN view=reverse
+    
+            track eyeembryonic231UTAreverse
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/eyeembryonic231UTAreverse.bigWig
+            shortLabel eymbrync231UTA rv
+            longLabel eye_embryonic23_1_UTA reverse
+            type bigWig
+            color 57,171,212
+            parent reversestrandreads
+            priority 38.0
+            visibility dense
+            subGroups samples=eyeembryonic231UTA view=reverse
+    
+            track eyeembryonic271UTAreverse
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/eyeembryonic271UTAreverse.bigWig
+            shortLabel eymbrync271UTA rv
+            longLabel eye_embryonic27_1_UTA reverse
+            type bigWig
+            color 212,168,57
+            parent reversestrandreads
+            priority 40.0
+            visibility dense
+            subGroups samples=eyeembryonic271UTA view=reverse
+    
+            track eyeembryonic251UTAreverse
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/eyeembryonic251UTAreverse.bigWig
+            shortLabel eymbrync251UTA rv
+            longLabel eye_embryonic25_1_UTA reverse
+            type bigWig
+            color 57,155,212
+            parent reversestrandreads
+            priority 42.0
+            visibility dense
+            subGroups samples=eyeembryonic251UTA view=reverse
+    
+            track eyeembryonic211UTAreverse
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/eyeembryonic211UTAreverse.bigWig
+            shortLabel eymbrync211UTA rv
+            longLabel eye_embryonic21_1_UTA reverse
+            type bigWig
+            color 212,184,57
+            parent reversestrandreads
+            priority 44.0
+            visibility dense
+            subGroups samples=eyeembryonic211UTA view=reverse
+    
+            track eyeembryonic191UTAreverse
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/eyeembryonic191UTAreverse.bigWig
+            shortLabel eymbrync191UTA rv
+            longLabel eye_embryonic19_1_UTA reverse
+            type bigWig
+            color 57,140,212
+            parent reversestrandreads
+            priority 46.0
+            visibility dense
+            subGroups samples=eyeembryonic191UTA view=reverse
+    
+            track giantfiberlobeMBLreverse
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/giantfiberlobeMBLreverse.bigWig
+            shortLabel giantfibrlbMBL rv
+            longLabel giant_fiber_lobe_MBL reverse
+            type bigWig
+            color 212,200,57
+            parent reversestrandreads
+            priority 48.0
+            visibility dense
+            subGroups samples=giantfiberlobeMBL view=reverse
+    
+            track giantaxonMBLreverse
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/giantaxonMBLreverse.bigWig
+            shortLabel giant_axon_MBL rv
+            longLabel giant_axon_MBL reverse
+            type bigWig
+            color 57,124,212
+            parent reversestrandreads
+            priority 50.0
+            visibility dense
+            subGroups samples=giantaxonMBL view=reverse
+    
+            track gillUCBreverse
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/gillUCBreverse.bigWig
+            shortLabel gill_UCB rv
+            longLabel gill_UCB reverse
+            type bigWig
+            color 57,108,212
+            parent reversestrandreads
+            priority 54.0
+            visibility dense
+            subGroups samples=gillUCB view=reverse
+    
+            track bloodUCBreverse
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/bloodUCBreverse.bigWig
+            shortLabel blood_UCB rv
+            longLabel blood_UCB reverse
+            type bigWig
+            color 193,212,57
+            parent reversestrandreads
+            priority 56.0
+            visibility dense
+            subGroups samples=bloodUCB view=reverse
+    
+            track buccalmassUCBreverse
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/buccalmassUCBreverse.bigWig
+            shortLabel buccal_massUCB rv
+            longLabel buccal_mass_UCB reverse
+            type bigWig
+            color 57,92,212
+            parent reversestrandreads
+            priority 58.0
+            visibility dense
+            subGroups samples=buccalmassUCB view=reverse
+    
+            track finDskinlayersUCBreverse
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/finDskinlayersUCBreverse.bigWig
+            shortLabel finDsknlyrsUCB rv
+            longLabel finD_skin_layers_UCB reverse
+            type bigWig
+            color 178,212,57
+            parent reversestrandreads
+            priority 60.0
+            visibility dense
+            subGroups samples=finDskinlayersUCB view=reverse
+    
+            track mantleDskinchromatophoreUCBreverse
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/mantleDskinchromatophoreUCBreverse.bigWig
+            shortLabel mntlDsktphrUCB rv
+            longLabel mantleD_skin_chromatophore_UCB reverse
+            type bigWig
+            color 57,76,212
+            parent reversestrandreads
+            priority 62.0
+            visibility dense
+            subGroups samples=mantleDskinchromatophoreUCB view=reverse
+    
+            track mantleDskiniridophoreUCBreverse
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/mantleDskiniridophoreUCBreverse.bigWig
+            shortLabel mntlDskdphrUCB rv
+            longLabel mantleD_skin_iridophore_UCB reverse
+            type bigWig
+            color 162,212,57
+            parent reversestrandreads
+            priority 64.0
+            visibility dense
+            subGroups samples=mantleDskiniridophoreUCB view=reverse
+    
+            track mantleVskinchromatophoreUCBreverse
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/mantleVskinchromatophoreUCBreverse.bigWig
+            shortLabel mntlVsktphrUCB rv
+            longLabel mantleV_skin_chromatophore_UCB reverse
+            type bigWig
+            color 57,60,212
+            parent reversestrandreads
+            priority 66.0
+            visibility dense
+            subGroups samples=mantleVskinchromatophoreUCB view=reverse
+    
+            track mantleVskiniridophoreUCBreverse
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/mantleVskiniridophoreUCBreverse.bigWig
+            shortLabel mntlVskdphrUCB rv
+            longLabel mantleV_skin_iridophore_UCB reverse
+            type bigWig
+            color 146,212,57
+            parent reversestrandreads
+            priority 68.0
+            visibility dense
+            subGroups samples=mantleVskiniridophoreUCB view=reverse
+    
+            track verticallobeUCBreverse
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/verticallobeUCBreverse.bigWig
+            shortLabel verticallobUCB rv
+            longLabel vertical_lobe_UCB reverse
+            type bigWig
+            color 69,57,212
+            parent reversestrandreads
+            priority 70.0
+            visibility dense
+            subGroups samples=verticallobeUCB view=reverse
+    
+            track supraesophagealbrainUCBreverse
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/supraesophagealbrainUCBreverse.bigWig
+            shortLabel sprsphglbrnUCB rv
+            longLabel supraesophageal_brain_UCB reverse
+            type bigWig
+            color 130,212,57
+            parent reversestrandreads
+            priority 72.0
+            visibility dense
+            subGroups samples=supraesophagealbrainUCB view=reverse
+    
+            track subesophagealbrainUCBreverse
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/subesophagealbrainUCBreverse.bigWig
+            shortLabel subsphglbrnUCB rv
+            longLabel subesophageal_brain_UCB reverse
+            type bigWig
+            color 85,57,212
+            parent reversestrandreads
+            priority 74.0
+            visibility dense
+            subGroups samples=subesophagealbrainUCB view=reverse
+    
+            track giantfiberlobeUCBreverse
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/giantfiberlobeUCBreverse.bigWig
+            shortLabel giantfibrlbUCB rv
+            longLabel giant_fiber_lobe_UCB reverse
+            type bigWig
+            color 114,212,57
+            parent reversestrandreads
+            priority 76.0
+            visibility dense
+            subGroups samples=giantfiberlobeUCB view=reverse
+    
+            track stellateganglionUCBreverse
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/stellateganglionUCBreverse.bigWig
+            shortLabel stelltgnglnUCB rv
+            longLabel stellate_ganglion_UCB reverse
+            type bigWig
+            color 101,57,212
+            parent reversestrandreads
+            priority 78.0
+            visibility dense
+            subGroups samples=stellateganglionUCB view=reverse
+    
+            track buccallobeUCBreverse
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/buccallobeUCBreverse.bigWig
+            shortLabel buccal_lobeUCB rv
+            longLabel buccal_lobe_UCB reverse
+            type bigWig
+            color 98,212,57
+            parent reversestrandreads
+            priority 80.0
+            visibility dense
+            subGroups samples=buccallobeUCB view=reverse
+    
+            track brachiallobeUCBreverse
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/brachiallobeUCBreverse.bigWig
+            shortLabel brachiallobUCB rv
+            longLabel brachial_lobe_UCB reverse
+            type bigWig
+            color 117,57,212
+            parent reversestrandreads
+            priority 82.0
+            visibility dense
+            subGroups samples=brachiallobeUCB view=reverse
+    
+            track axialnervecordUCBreverse
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/axialnervecordUCBreverse.bigWig
+            shortLabel axialnrvcrdUCB rv
+            longLabel axial_nerve_cord_UCB reverse
+            type bigWig
+            color 82,212,57
+            parent reversestrandreads
+            priority 84.0
+            visibility dense
+            subGroups samples=axialnervecordUCB view=reverse
+    
+            track testesUCBreverse
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/testesUCBreverse.bigWig
+            shortLabel testes_UCB rv
+            longLabel testes_UCB reverse
+            type bigWig
+            color 133,57,212
+            parent reversestrandreads
+            priority 86.0
+            visibility dense
+            subGroups samples=testesUCB view=reverse
+    
+            track tentaclesUCBreverse
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/tentaclesUCBreverse.bigWig
+            shortLabel tentacles_UCB rv
+            longLabel tentacles_UCB reverse
+            type bigWig
+            color 66,212,57
+            parent reversestrandreads
+            priority 88.0
+            visibility dense
+            subGroups samples=tentaclesUCB view=reverse
+    
+            track suckersUCBreverse
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/suckersUCBreverse.bigWig
+            shortLabel suckers_UCB rv
+            longLabel suckers_UCB reverse
+            type bigWig
+            color 149,57,212
+            parent reversestrandreads
+            priority 90.0
+            visibility dense
+            subGroups samples=suckersUCB view=reverse
+    
+            track retinaUCBreverse
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/retinaUCBreverse.bigWig
+            shortLabel retina_UCB rv
+            longLabel retina_UCB reverse
+            type bigWig
+            color 57,212,63
+            parent reversestrandreads
+            priority 92.0
+            visibility dense
+            subGroups samples=retinaUCB view=reverse
+    
+            track mantlemuscleUCBreverse
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/mantlemuscleUCBreverse.bigWig
+            shortLabel mantlemusclUCB rv
+            longLabel mantle_muscle_UCB reverse
+            type bigWig
+            color 165,57,212
+            parent reversestrandreads
+            priority 94.0
+            visibility dense
+            subGroups samples=mantlemuscleUCB view=reverse
+    
+            track kidneyUCBreverse
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/kidneyUCBreverse.bigWig
+            shortLabel kidney_UCB rv
+            longLabel kidney_UCB reverse
+            type bigWig
+            color 57,212,79
+            parent reversestrandreads
+            priority 96.0
+            visibility dense
+            subGroups samples=kidneyUCB view=reverse
+    
+            track inkUCBreverse
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/inkUCBreverse.bigWig
+            shortLabel ink_UCB rv
+            longLabel ink_UCB reverse
+            type bigWig
+            color 180,57,212
+            parent reversestrandreads
+            priority 98.0
+            visibility dense
+            subGroups samples=inkUCB view=reverse
+    
+            track hepatopancreasUCBreverse
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/hepatopancreasUCBreverse.bigWig
+            shortLabel hepatopncrsUCB rv
+            longLabel hepatopancreas_UCB reverse
+            type bigWig
+            color 57,212,95
+            parent reversestrandreads
+            priority 100.0
+            visibility dense
+            subGroups samples=hepatopancreasUCB view=reverse
+    
+            track posteriorsalivaryglandUCBreverse
+            bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/posteriorsalivaryglandUCBreverse.bigWig
+            shortLabel pstrrslglndUCB rv
+            longLabel posterior_salivary_gland_UCB reverse
+            type bigWig
+            color 196,57,212
+            parent reversestrandreads
+            priority 102.0
+            visibility dense
+            subGroups samples=posteriorsalivaryglandUCB view=reverse

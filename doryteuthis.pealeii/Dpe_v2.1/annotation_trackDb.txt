@@ -1,0 +1,59 @@
+track cytoBandIdeo
+bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/cytoBandIdeo.bigBed
+shortLabel cytoBandIdeo
+longLabel Chromosome ideogram with cytogenetic bands
+type bigBed
+
+track gcPercent
+bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/gcPercent.bigWig
+shortLabel gcPercent
+longLabel gcPercent
+type bigWig
+color 59,189,191
+group annotation
+priority 1.1
+visibility hide
+
+track softmasked
+bigDataUrl https://mbdata.science.ru.nl/chanaheijden/shared/trackhub_all_Dpealeii_RNAseq/Dpe_v2.1/softmasked.bigBed
+shortLabel softmasked
+longLabel softmasked
+type bigBed
+color 128,128,128
+group annotation
+priority 2
+visibility dense
+
+track gene_annotation
+shortLabel Gene Annotation
+longLabel Gene Annotation
+group annotation
+priority 10.0
+superTrack on show
+  
+  track JGI_Dpealeiiv2
+  longLabel JGI_v2.1_genes
+  shortLabel JGI_v2.1_genes from gff3
+  parent gene_annotation
+  type bigBed 12
+  bigDataUrl https://mbdata.science.ru.nl/track_data/trackhubs_internal/doryteuthis.pealeii_data/dpe2.1/Dpealeiiv2.gene_exons_12bed.bed.bb
+  visibility hide
+  bedNameLabel name
+  searchIndex name
+  searchTrix https://mbdata.science.ru.nl/track_data/trackhubs_internal/doryteuthis.pealeii_data/dpe2.1/Dpealeiiv2.gene_exons_12bed.bed.ix
+  labelOnFeature off
+  priority 10.1
+
+  track pita_v0.3
+  longLabel pita_genes_v0.3
+  shortLabel pita_genes
+  parent gene_annotation
+  type bigBed 12
+  bigDataUrl https://mbdata.science.ru.nl/track_data/trackhubs_internal/doryteuthis.pealeii_data/dpe2.1/pita_genes_v0.3_sorted.bed.bb
+  visibility full
+  bedNameLabel name
+  searchIndex name
+  searchTrix https://mbdata.science.ru.nl/track_data/trackhubs_internal/doryteuthis.pealeii_data/dpe2.1/pita_genes_v0.3_sorted.bed.ix
+  labelOnFeature off
+  priority 10.3
+  color 30,30,120

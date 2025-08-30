@@ -1,0 +1,14 @@
+name mapping
+label Mapping and alignment
+priority 1
+defaultIsClosed 1
+
+name annotation
+label Gene and Genome Annotation
+priority 2
+defaultIsClosed 0
+
+name trackhub_RU
+label Radboud Univ hub
+priority 3
+defaultIsClosed 0
